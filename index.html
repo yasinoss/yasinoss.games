@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d12">
+  <meta name="description" content="كتالوج ألعاب لطلبات التنصيب عبر واتساب.">
+  <title>كتالوج الألعاب</title>
+  <link rel="icon" href="logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="الصفحة الرئيسية">
+        <img src="logo.svg" alt="شعار الموقع" class="brand-logo">
+        <span id="siteName">كتالوج الألعاب</span>
+      </a>
+      <nav class="header-actions" aria-label="التنقل السريع">
+        <button id="changePlatformBtn" class="text-btn hidden" type="button">تغيير الجهاز</button>
+        <button id="cartBtn" class="cart-btn" type="button" aria-label="فتح سلة الطلب">
+          <span>🛒 الطلب</span>
+          <b id="cartCount">0</b>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
+          <span class="eyebrow">كتالوج تنصيب الألعاب</span>
+          <h1>اختر ألعابك وأرسل الطلب مباشرة عبر واتساب</h1>
+          <p>حدد جهازك أولًا، ثم تصفح الألعاب المتوافقة، أضف ما تريد إلى الطلب وأرسله في رسالة واحدة.</p>
+        </div>
+        <div class="hero-badge" aria-hidden="true">
+          <span>PS4</span>
+          <span>PS5</span>
+          <span id="heroPS3Badge" class="hidden">PS3</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="container platform-section" id="platformSection">
+      <div class="section-heading">
+        <div>
+          <span class="section-kicker">الخطوة 1</span>
+          <h2>اختر جهازك</h2>
+        </div>
+        <p id="platformHint">سيتم تقييد الكتالوج حسب الجهاز الذي تختاره.</p>
+      </div>
+
+      <div class="platform-grid" id="platformChooser">
+        <button class="platform-card" data-platform="PS4" type="button">
+          <span class="platform-icon">PS4</span>
+          <span class="platform-title">PlayStation 4</span>
+          <span class="platform-subtitle">ألعاب PS4 فقط</span>
+        </button>
+        <button class="platform-card" data-platform="PS5" type="button">
+          <span class="platform-icon">PS5</span>
+          <span class="platform-title">PlayStation 5</span>
+          <span class="platform-subtitle">ألعاب PS4 و PS5</span>
+        </button>
+        <button class="platform-card hidden" data-platform="PS3" id="ps3PlatformCard" type="button">
+          <span class="platform-icon">PS3</span>
+          <span class="platform-title">PlayStation 3</span>
+          <span class="platform-subtitle">ألعاب PS3 فقط</span>
+        </button>
+      </div>
+
+      <div id="selectedPlatform" class="selected-platform hidden">
+        <div>
+          <span class="section-kicker">الجهاز المختار</span>
+          <strong id="selectedPlatformLabel">PS4</strong>
+          <small id="selectedPlatformRule"></small>
+        </div>
+        <span class="lock-pill">🔒 مقفل</span>
+      </div>
+    </section>
+
+    <section class="container catalog-section hidden" id="catalogSection">
+      <div class="section-heading catalog-heading">
+        <div>
+          <span class="section-kicker">الخطوة 2</span>
+          <h2>تصفح الألعاب</h2>
+        </div>
+        <span id="resultSummary" class="result-summary"></span>
+      </div>
+
+      <div class="toolbar">
+        <label class="search-box" for="searchInput">
+          <span aria-hidden="true">⌕</span>
+          <input id="searchInput" type="search" placeholder="ابحث باسم اللعبة أو رقمها أو النوع..." autocomplete="off">
+        </label>
+        <label class="sort-box" for="sortSelect">
+          <span>ترتيب</span>
+          <select id="sortSelect">
+            <option value="name">الاسم</option>
+            <option value="releaseYearDesc">الأحدث إصدارًا</option>
+            <option value="releaseYearAsc">الأقدم إصدارًا</option>
+            <option value="id">رقم اللعبة</option>
+          </select>
+        </label>
+      </div>
+
+      <div id="activeFilters" class="active-filters" aria-live="polite"></div>
+      <div id="gamesGrid" class="games-grid" aria-live="polite"></div>
+
+      <div id="emptyState" class="empty-state hidden">
+        <div class="empty-icon">⌁</div>
+        <h3>لم نجد ألعابًا مطابقة</h3>
+        <p>جرّب كلمة بحث أخرى.</p>
+      </div>
+
+      <div id="pagination" class="pagination" aria-label="تصفح صفحات الألعاب"></div>
+    </section>
+  </main>
+
+  <aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
+    <div class="drawer-backdrop" id="drawerBackdrop"></div>
+    <section class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+      <header class="drawer-header">
+        <div>
+          <span class="section-kicker">الخطوة 3</span>
+          <h2 id="cartTitle">سلة الطلب</h2>
+        </div>
+        <button id="closeCartBtn" class="icon-btn" type="button" aria-label="إغلاق السلة">×</button>
+      </header>
+
+      <div id="cartItems" class="cart-items"></div>
+      <div id="cartEmpty" class="cart-empty">
+        <div class="empty-icon">🛒</div>
+        <h3>السلة فارغة</h3>
+        <p>أضف ألعابًا من الكتالوج لتكوين طلبك.</p>
+      </div>
+
+      <footer class="cart-footer">
+        <div class="cart-stats">
+          <div><span>عدد الألعاب</span><strong id="cartTotalGames">0</strong></div>
+          <div><span>إجمالي المساحة</span><strong id="cartTotalSize">0 GB</strong></div>
+        </div>
+        <button id="sendWhatsAppBtn" class="primary-btn full" type="button">إرسال الطلب عبر واتساب</button>
+        <button id="clearCartBtn" class="danger-btn full" type="button">إفراغ السلة</button>
+        <p class="tiny-note">لن يتم حفظ بيانات الطلب على خادم؛ السلة تبقى داخل متصفح العميل فقط حتى إرسالها أو حذفها.</p>
+      </footer>
+    </section>
+  </aside>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="app.js" defer></script>
+</body>
+</html>

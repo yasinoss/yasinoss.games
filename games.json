@@ -1,0 +1,102 @@
+[
+  {
+    "id": 2,
+    "name": "Assassin's Creed Syndicate",
+    "platform": "PS4",
+    "image": "https://i.postimg.cc/bwzJXcvb/002.jpg",
+    "size": 36,
+    "releaseYear": 2015,
+    "genre": "Action",
+    "notes": "مثال تجريبي"
+  },
+  {
+    "id": 3,
+    "name": "Assassins Creed Unity",
+    "platform": "PS4",
+    "image": "https://i.postimg.cc/52ntb7H6/003.jpg",
+    "size": 37,
+    "releaseYear": 2014,
+    "genre": "Adventure, Action",
+    "notes": "مثال تجريبي"
+  },
+  {
+    "id": 1006,
+    "name": "Ghost of Tsushima",
+    "platform": "PS4",
+    "image": "https://placehold.co/286x350/png?text=Ghost+of+Tsushima",
+    "size": 50,
+    "releaseYear": 2020,
+    "genre": "Action",
+    "notes": "مثال تجريبي"
+  },
+  {
+    "id": 2001,
+    "name": "Spider-Man 2",
+    "platform": "PS5",
+    "image": "https://placehold.co/286x350/png?text=Spider-Man+2",
+    "size": 86,
+    "releaseYear": 2023,
+    "genre": "Action",
+    "notes": "مثال تجريبي"
+  },
+  {
+    "id": 2002,
+    "name": "Demon's Souls",
+    "platform": "PS5",
+    "image": "https://placehold.co/286x350/png?text=Demon%27s+Souls",
+    "size": 66,
+    "releaseYear": 2020,
+    "genre": "RPG",
+    "notes": "مثال تجريبي"
+  },
+  {
+    "id": 2003,
+    "name": "Ratchet & Clank: Rift Apart",
+    "platform": "PS5",
+    "image": "https://placehold.co/286x350/png?text=Ratchet+%26+Clank",
+    "size": 42,
+    "releaseYear": 2021,
+    "genre": "Adventure",
+    "notes": "مثال تجريبي"
+  },
+  {
+    "id": 2004,
+    "name": "Returnal",
+    "platform": "PS5",
+    "image": "https://placehold.co/286x350/png?text=Returnal",
+    "size": 56,
+    "releaseYear": 2021,
+    "genre": "Shooter",
+    "notes": "مثال تجريبي"
+  },
+  {
+    "id": 2005,
+    "name": "Gran Turismo 7",
+    "platform": "PS5",
+    "image": "https://placehold.co/286x350/png?text=Gran+Turismo+7",
+    "size": 110,
+    "releaseYear": 2022,
+    "genre": "Racing",
+    "notes": "مثال تجريبي"
+  },
+  {
+    "id": 2006,
+    "name": "EA Sports FC",
+    "platform": "PS5",
+    "image": "https://placehold.co/286x350/png?text=EA+Sports+FC",
+    "size": 55,
+    "releaseYear": 2024,
+    "genre": "Sports",
+    "notes": "مثال تجريبي"
+  },
+  {
+    "id": 1,
+    "name": "Assassins Creed Origins",
+    "platform": "PS4",
+    "size": 70,
+    "releaseYear": 2017,
+    "genre": "RPG, Action",
+    "image": "https://i.postimg.cc/ZKvtsfm8/001.jpg",
+    "notes": "اللعبة بها ترجمة عربية"
+  }
+]
