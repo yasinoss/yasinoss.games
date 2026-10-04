@@ -93,5 +93,65 @@
     "genre": "RPG, Action",
     "image": "https://i.postimg.cc/ZKvtsfm8/001.jpg",
     "notes": "اللعبة بها ترجمة عربية"
+  },
+  {
+    "id": 50008,
+    "name": "Astro Bot",
+    "platform": "PS5",
+    "size": 35,
+    "releaseYear": 1970,
+    "genre": "Jeu de plateforme, Jeu de combat",
+    "image": "https://i.postimg.cc/3x2yJLFF/50008.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50009,
+    "name": "Battlefield 6",
+    "platform": "PS5",
+    "size": 110,
+    "releaseYear": 2025,
+    "genre": "FPS, Action",
+    "image": "https://i.postimg.cc/mg7c2dyS/50009.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50010,
+    "name": "Black Myth Wukong",
+    "platform": "PS5",
+    "size": 100,
+    "releaseYear": 2024,
+    "genre": "Action RPG",
+    "image": "https://i.postimg.cc/t4F1CrN5/50010.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50011,
+    "name": "Crash Bandicoot 4 It's About Time",
+    "platform": "PS5",
+    "size": 18,
+    "releaseYear": 2020,
+    "genre": "Plate-Forme, Aventure",
+    "image": "https://i.postimg.cc/K8tKv9Df/50011.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50012,
+    "name": "Crimson Desert",
+    "platform": "PS5",
+    "size": 78,
+    "releaseYear": 2026,
+    "genre": "Open World, MMORPG",
+    "image": "https://i.postimg.cc/rw5dFhNg/50012.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50013,
+    "name": "EA SPORTS FC 26",
+    "platform": "PS5",
+    "size": 75,
+    "releaseYear": 2025,
+    "genre": "Sport",
+    "image": "https://i.postimg.cc/CKYRZjc8/50013.jpg",
+    "notes": ""
   }
 ]
