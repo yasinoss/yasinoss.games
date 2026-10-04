@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#0b0d12">
   <meta name="description" content="كتالوج ألعاب لطلبات التنصيب عبر واتساب.">
-  <title>كتالوج الألعاب</title>
+  <title>High-Tech Games</title>
   <link rel="icon" href="logo.svg" type="image/svg+xml">
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,7 +14,7 @@
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="الصفحة الرئيسية">
         <img src="logo.svg" alt="شعار الموقع" class="brand-logo">
-        <span id="siteName">كتالوج الألعاب</span>
+        <span id="siteName">High-Tech Games</span>
       </a>
       <nav class="header-actions" aria-label="التنقل السريع">
         <button id="changePlatformBtn" class="text-btn hidden" type="button">تغيير الجهاز</button>
@@ -93,6 +93,14 @@
           <span aria-hidden="true">⌕</span>
           <input id="searchInput" type="search" placeholder="ابحث باسم اللعبة أو رقمها أو النوع..." autocomplete="off">
         </label>
+        <label class="filter-box" for="platformFilter">
+          <span>المنصة</span>
+          <select id="platformFilter">
+            <option value="all">كل الألعاب المتوافقة</option>
+            <option value="PS4">PS4</option>
+            <option value="PS5">PS5</option>
+          </select>
+        </label>
         <label class="sort-box" for="sortSelect">
           <span>ترتيب</span>
           <select id="sortSelect">
@@ -116,6 +124,20 @@
       <div id="pagination" class="pagination" aria-label="تصفح صفحات الألعاب"></div>
     </section>
   </main>
+
+
+  <footer class="site-footer">
+    <div class="container site-footer-inner">
+      <div>
+        <strong>High-Tech Games</strong>
+        <p>Tous droits réservés pour High-Tech</p>
+      </div>
+      <div class="footer-contact">
+        <a href="tel:+21655331334">📞 55 331 334</a>
+        <span>📍 الحي الزيتوني، طريق بني خداش، مدنين</span>
+      </div>
+    </div>
+  </footer>
 
   <aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
     <div class="drawer-backdrop" id="drawerBackdrop"></div>
