@@ -20,74 +20,69 @@
     "notes": "مثال تجريبي"
   },
   {
-    "id": 1006,
-    "name": "Ghost of Tsushima",
-    "platform": "PS4",
-    "image": "https://placehold.co/286x350/png?text=Ghost+of+Tsushima",
-    "size": 50,
-    "releaseYear": 2020,
-    "genre": "Action",
+    "id": 50001,
+    "name": "007 First Light Deluxe Edition",
+    "platform": "PS5",
+    "image": "https://i.postimg.cc/3x2yJLF4/50001.jpg",
+    "size": 46,
+    "releaseYear": 2026,
+    "genre": "Action , Action-adventure"
+  },
+  {
+    "id": 50002,
+    "name": "A Plague Tale Innocence",
+    "platform": "PS5",
+    "image": "https://i.postimg.cc/Dw1WyCP4/50002.jpg",
+    "size": 31,
+    "releaseYear": 2019,
+    "genre": "Action-adventure, Third-person, Third-person",
     "notes": "مثال تجريبي"
   },
   {
-    "id": 2001,
-    "name": "Spider-Man 2",
+    "id": 50003,
+    "name": "A Plague Tale Requiem",
     "platform": "PS5",
-    "image": "https://placehold.co/286x350/png?text=Spider-Man+2",
-    "size": 86,
-    "releaseYear": 2023,
-    "genre": "Action",
-    "notes": "مثال تجريبي"
-  },
-  {
-    "id": 2002,
-    "name": "Demon's Souls",
-    "platform": "PS5",
-    "image": "https://placehold.co/286x350/png?text=Demon%27s+Souls",
-    "size": 66,
-    "releaseYear": 2020,
-    "genre": "RPG",
-    "notes": "مثال تجريبي"
-  },
-  {
-    "id": 2003,
-    "name": "Ratchet & Clank: Rift Apart",
-    "platform": "PS5",
-    "image": "https://placehold.co/286x350/png?text=Ratchet+%26+Clank",
-    "size": 42,
-    "releaseYear": 2021,
-    "genre": "Adventure",
-    "notes": "مثال تجريبي"
-  },
-  {
-    "id": 2004,
-    "name": "Returnal",
-    "platform": "PS5",
-    "image": "https://placehold.co/286x350/png?text=Returnal",
-    "size": 56,
-    "releaseYear": 2021,
-    "genre": "Shooter",
-    "notes": "مثال تجريبي"
-  },
-  {
-    "id": 2005,
-    "name": "Gran Turismo 7",
-    "platform": "PS5",
-    "image": "https://placehold.co/286x350/png?text=Gran+Turismo+7",
-    "size": 110,
+    "image": "https://i.postimg.cc/dVG7tWjC/50003.jpg",
+    "size": 43,
     "releaseYear": 2022,
-    "genre": "Racing",
-    "notes": "مثال تجريبي"
+    "genre": "Action-adventure, Third-person, Third-person"
   },
   {
-    "id": 2006,
-    "name": "EA Sports FC",
+    "id": 50004,
+    "name": "Assassin’s Creed Black Flag Resynced",
     "platform": "PS5",
-    "image": "https://placehold.co/286x350/png?text=EA+Sports+FC",
-    "size": 55,
-    "releaseYear": 2024,
-    "genre": "Sports",
-    "notes": "مثال تجريبي"
+    "image": "https://i.postimg.cc/3x2yJLFp/50004.jpg",
+    "size": 60,
+    "releaseYear": 2026,
+    "genre": "Jeu d'action-aventure, Jeu d'infiltration, Adventure"
+  },
+  {
+    "id": 50007,
+    "name": "Assassin's Creed Valhalla",
+    "platform": "PS5",
+    "image": "https://i.postimg.cc/528HNPSq/50007.jpg",
+    "size": 142,
+    "releaseYear": 2020,
+    "genre": "Jeu vidéo de rôle, Jeu d'action-aventure, Jeu de combat, Jeu de plateforme, Jeu de tir, Adventure"
+  },
+  {
+    "id": 50005,
+    "name": "Assassin's Creed Mirage",
+    "platform": "PS5",
+    "image": "https://i.postimg.cc/kgWVXjvK/50005.jpg",
+    "size": 59,
+    "releaseYear": 2023,
+    "genre": "Jeu d'infiltration, Jeu d'action-aventure, Jeu de combat, Jeu de plateforme, Adventure"
+  },
+  {
+    "id": 50006,
+    "name": "Assassin's Creed Shadows",
+    "platform": "PS5",
+    "image": "https://i.postimg.cc/x1LkTs3L/50006.jpg",
+    "size": 142,
+    "releaseYear": 2025,
+    "genre": "Action-RPG, Gameplay non linéaire",
+    "notes": "مع الاضافات"
   },
   {
     "id": 1,
