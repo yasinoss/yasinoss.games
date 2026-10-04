@@ -1,5 +1,5 @@
 
-const state={games:[],config:{siteName:'كتالوج الألعاب',whatsappNumber:''},platform:null,catalogFilter:'all',page:1,perPage:15,search:'',sort:'name',cart:[]};
+const state={games:[],config:{siteName:'كتالوج الألعاب',whatsappNumber:''},platform:null,catalogFilter:'all',page:1,perPage:16,search:'',sort:'releaseYearDesc',cart:[]};
 const $=s=>document.querySelector(s);
 const byId=id=>document.getElementById(id);
 const norm=v=>String(v??'').trim().toLocaleLowerCase('ar');
@@ -17,7 +17,7 @@ function allowedGame(g){
   }
   return false;
 }
-function sortGames(arr){return [...arr].sort((a,b)=>{if(state.sort==='id')return Number(a.id)-Number(b.id);if(state.sort==='releaseYearDesc')return Number(b.releaseYear)-Number(a.releaseYear)||norm(a.name).localeCompare(norm(b.name));if(state.sort==='releaseYearAsc')return Number(a.releaseYear)-Number(b.releaseYear)||norm(a.name).localeCompare(norm(b.name));return norm(a.name).localeCompare(norm(b.name),'ar');})}
+function sortGames(arr){return [...arr].sort((a,b)=>{if(state.sort==='id')return Number(a.id)-Number(b.id);if(state.sort==='releaseYearDesc')return Number(b.releaseYear)-Number(a.releaseYear)||Number(b.id)-Number(a.id);if(state.sort==='releaseYearAsc')return Number(a.releaseYear)-Number(b.releaseYear)||norm(a.name).localeCompare(norm(b.name));return norm(a.name).localeCompare(norm(b.name),'ar');})}
 function filteredGames(){const q=norm(state.search);return sortGames(state.games.filter(g=>allowedGame(g)&&(!q||norm(g.name).includes(q)||String(g.id).includes(q)||norm(g.genre).includes(q))));}
 function renderGames(){const arr=filteredGames();const totalPages=Math.max(1,Math.ceil(arr.length/state.perPage));if(state.page>totalPages)state.page=totalPages;const start=(state.page-1)*state.perPage;const shown=arr.slice(start,start+state.perPage);const grid=byId('gamesGrid');grid.innerHTML='';byId('emptyState').classList.toggle('hidden',arr.length!==0);for(const g of shown){const added=state.cart.some(x=>String(x.id)===String(g.id));const card=document.createElement('article');card.className='game-card';card.setAttribute('tabindex','0');card.setAttribute('aria-label',`عرض تفاصيل ${g.name}`);card.innerHTML=`<div class="game-image-wrap"><img class="game-image" src="${escapeHtml(g.image)}" alt="${escapeHtml(g.name)}" loading="lazy"></div><div class="game-body"><h3 class="game-title">${escapeHtml(g.name)}</h3><div class="meta"><span>${escapeHtml(g.platform)}</span><span>${escapeHtml(g.size)} GB</span><span>${escapeHtml(g.releaseYear)}</span><span>${escapeHtml(g.genre)}</span></div><button class="add-btn ${added?'added':''}" data-add-id="${escapeHtml(g.id)}" type="button">${added?'✓ تمت الإضافة':'＋ إضافة للطلب'}</button></div>`;grid.appendChild(card);const add=card.querySelector('[data-add-id]');card.addEventListener('click',e=>{if(e.target.closest('.add-btn'))return;showGameDetails(g)});card.addEventListener('keydown',e=>{if((e.key==='Enter'||e.key===' ')&&!e.target.closest('.add-btn')){e.preventDefault();showGameDetails(g)}});add.addEventListener('click',e=>{e.stopPropagation();toggleCart(g)});}
 byId('resultSummary').textContent=`${arr.length} لعبة`;
