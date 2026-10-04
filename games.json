@@ -371,14 +371,13 @@
     "notes": ""
   },
   {
-    "id": 30036,
+    "id": 50036,
     "name": "The Last of Us Part II Remastered",
     "platform": "PS5",
     "size": 98,
     "releaseYear": 2024,
     "genre": "Survival-Horror, Action",
-    "image": "https://i.postimg.cc/W4nh0hyC/50036.jpg",
-    "notes": ""
+    "image": "https://i.postimg.cc/W4nh0hyC/50036.jpg"
   },
   {
     "id": 50037,
@@ -398,6 +397,26 @@
     "releaseYear": 2026,
     "genre": "Combat, Sport",
     "image": "https://i.postimg.cc/25wVnVts/50038.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50039,
+    "name": "Prince of Persia: The Lost Crown",
+    "platform": "PS5",
+    "size": 22,
+    "releaseYear": 2024,
+    "genre": "Plate-Forme, Action",
+    "image": "https://i.postimg.cc/tTvwfGJS/50039.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50040,
+    "name": "Resident Evil Village",
+    "platform": "PS5",
+    "size": 38,
+    "releaseYear": 2021,
+    "genre": "Survival-Horror",
+    "image": "https://i.postimg.cc/63bgSxqH/50040.jpg",
     "notes": ""
   }
 ]
