@@ -63,7 +63,7 @@
     "image": "https://i.postimg.cc/528HNPSq/50007.jpg",
     "size": 142,
     "releaseYear": 2020,
-    "genre": "Jeu vidéo de rôle, Jeu d'action-aventure, Jeu de combat, Jeu de plateforme, Jeu de tir, Adventure"
+    "genre": "Action, combat, Jeu de plateforme, Adventure"
   },
   {
     "id": 50005,
@@ -72,7 +72,7 @@
     "image": "https://i.postimg.cc/kgWVXjvK/50005.jpg",
     "size": 59,
     "releaseYear": 2023,
-    "genre": "Jeu d'infiltration, Jeu d'action-aventure, Jeu de combat, Jeu de plateforme, Adventure"
+    "genre": "combat, Jeu de plateforme, Adventure"
   },
   {
     "id": 50006,
@@ -99,10 +99,9 @@
     "name": "Astro Bot",
     "platform": "PS5",
     "size": 35,
-    "releaseYear": 1970,
+    "releaseYear": 2024,
     "genre": "Jeu de plateforme, Jeu de combat",
-    "image": "https://i.postimg.cc/3x2yJLFF/50008.jpg",
-    "notes": ""
+    "image": "https://i.postimg.cc/3x2yJLFF/50008.jpg"
   },
   {
     "id": 50009,
@@ -152,6 +151,253 @@
     "releaseYear": 2025,
     "genre": "Sport",
     "image": "https://i.postimg.cc/CKYRZjc8/50013.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50014,
+    "name": "EA SPORTS FC 27",
+    "platform": "PS5",
+    "size": 62,
+    "releaseYear": 2026,
+    "genre": "Sport",
+    "image": "https://i.postimg.cc/PqhCLmSZ/50014.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50015,
+    "name": "Gears of War Reloaded",
+    "platform": "PS5",
+    "size": 60,
+    "releaseYear": 2025,
+    "genre": "Action, FPS",
+    "image": "https://i.postimg.cc/g0dxwvg8/50015.jpg"
+  },
+  {
+    "id": 50016,
+    "name": "Ghost of Tsushima",
+    "platform": "PS5",
+    "size": 62,
+    "releaseYear": 2020,
+    "genre": "Open World, Aventure, Action",
+    "image": "https://i.postimg.cc/6Qw87dMd/50016.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50017,
+    "name": "Ghost of yoti",
+    "platform": "PS5",
+    "size": 110,
+    "releaseYear": 2025,
+    "genre": "Open World, Aventure, Action",
+    "image": "https://i.postimg.cc/vmM41W07/50017.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50018,
+    "name": "God of War Ragnarök",
+    "platform": "PS5",
+    "size": 101,
+    "releaseYear": 2022,
+    "genre": "Mythologie, Action",
+    "image": "https://i.postimg.cc/5t1XHwsq/50018.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50019,
+    "name": "Need for Speed Unbound",
+    "platform": "PS5",
+    "size": 31,
+    "releaseYear": 2022,
+    "genre": "Course, Sport",
+    "image": "https://i.postimg.cc/FKmYfjTV/50019.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50020,
+    "name": "Grand Theft Auto V",
+    "platform": "PS5",
+    "size": 96,
+    "releaseYear": 2013,
+    "genre": "Action, FPS",
+    "image": "https://i.postimg.cc/9fVD4GLb/50020.jpg"
+  },
+  {
+    "id": 50021,
+    "name": "Grand Theft Auto San Andreas - The Definitive Edition",
+    "platform": "PS5",
+    "size": 23,
+    "releaseYear": 2021,
+    "genre": "Action",
+    "image": "https://i.postimg.cc/QMsFBpf0/50021.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50022,
+    "name": "Grand Theft Auto Vice City - The Definitive Edition",
+    "platform": "PS5",
+    "size": 11,
+    "releaseYear": 2021,
+    "genre": "Action",
+    "image": "https://i.postimg.cc/bv8ZGQmm/50022.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50023,
+    "name": "Indiana Jones and The Great Circle",
+    "platform": "PS5",
+    "size": 125,
+    "releaseYear": 2024,
+    "genre": "Puzzle-Game, Aventure, FPS, Action",
+    "image": "https://i.postimg.cc/yNBDJFLf/50023.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50024,
+    "name": "Mafia The Old Country",
+    "platform": "PS5",
+    "size": 38,
+    "releaseYear": 2025,
+    "genre": "Shooter, Action, Aventure",
+    "image": "https://i.postimg.cc/TPGKyrtN/50024.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50025,
+    "name": "Marvel's Spider-Man 2",
+    "platform": "PS5",
+    "size": 101,
+    "releaseYear": 2023,
+    "genre": "Open World, Aventure, Action",
+    "image": "https://i.postimg.cc/N0YKy1dz/50025.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50026,
+    "name": "Marvel's Spider-Man: Miles Morales",
+    "platform": "PS5",
+    "size": 49,
+    "releaseYear": 2020,
+    "genre": "Super-Héros, Action",
+    "image": "https://i.postimg.cc/pdxm9DsS/50026.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50027,
+    "name": "Marvel's Wolverine",
+    "platform": "PS5",
+    "size": 95,
+    "releaseYear": 2026,
+    "genre": "Aventure, Action",
+    "image": "https://i.postimg.cc/7LD5CgKc/50027.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50028,
+    "name": "Mortal Kombat 1",
+    "platform": "PS5",
+    "size": 141,
+    "releaseYear": 2023,
+    "genre": "Combat",
+    "image": "https://i.postimg.cc/vmM41W0k/50028.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50029,
+    "name": "NBA 2K26",
+    "platform": "PS5",
+    "size": 101,
+    "releaseYear": 2025,
+    "genre": "Sport",
+    "image": "https://i.postimg.cc/8CD7FhZq/50029.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50030,
+    "name": "Onimusha: Way of the Sword",
+    "platform": "PS5",
+    "size": 39,
+    "releaseYear": 2026,
+    "genre": "RPG, Aventure, Action",
+    "image": "https://i.postimg.cc/N0YKy1d3/50030.jpg"
+  },
+  {
+    "id": 50031,
+    "name": "Pragmata",
+    "platform": "PS5",
+    "size": 32,
+    "releaseYear": 2026,
+    "genre": "Action",
+    "image": "https://i.postimg.cc/W4jdDM9R/50031.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50032,
+    "name": "Ratchet & Clank Rift Apart",
+    "platform": "PS5",
+    "size": 40,
+    "releaseYear": 2021,
+    "genre": "Action, Plate-Forme, Aventure",
+    "image": "https://i.postimg.cc/3wBd2dqb/50032.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50033,
+    "name": "RESIDENT EVIL requiem",
+    "platform": "PS5",
+    "size": 71,
+    "releaseYear": 2026,
+    "genre": "Survival-Horror, Action",
+    "image": "https://i.postimg.cc/1zP8gpWS/50033.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50034,
+    "name": "Sackboy A Big Adventure",
+    "platform": "PS5",
+    "size": 29,
+    "releaseYear": 2020,
+    "genre": "Plate-Forme, Aventure",
+    "image": "https://i.postimg.cc/YS3hQhPs/50034.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50035,
+    "name": "The Last of Us - Part I",
+    "platform": "PS5",
+    "size": 71,
+    "releaseYear": 2022,
+    "genre": "Survival-Horror, Action",
+    "image": "https://i.postimg.cc/SKrJcJPP/50035.jpg",
+    "notes": ""
+  },
+  {
+    "id": 30036,
+    "name": "The Last of Us Part II Remastered",
+    "platform": "PS5",
+    "size": 98,
+    "releaseYear": 2024,
+    "genre": "Survival-Horror, Action",
+    "image": "https://i.postimg.cc/W4nh0hyC/50036.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50037,
+    "name": "EA Sports UFC 5",
+    "platform": "PS5",
+    "size": 46,
+    "releaseYear": 2023,
+    "genre": "Action, Combat, Sport",
+    "image": "https://i.postimg.cc/YS3hQhPT/50037.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50038,
+    "name": "WWE 2K26",
+    "platform": "PS5",
+    "size": 120,
+    "releaseYear": 2026,
+    "genre": "Combat, Sport",
+    "image": "https://i.postimg.cc/25wVnVts/50038.jpg",
     "notes": ""
   }
 ]
