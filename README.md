@@ -8,9 +8,7 @@
 - `app.js` منطق الموقع العام.
 - `games.json` بيانات الألعاب.
 - `config.json` اسم الموقع ورقم واتساب.
-- `game-manager.html` مدير الألعاب المحلي.
-- `manager.css` و`manager.js` تصميم ومنطق المدير.
-- `logo.svg` شعار افتراضي.
+
 
 ## التشغيل على GitHub Pages
 ارفع جميع الملفات إلى المستودع نفسه، ثم فعّل GitHub Pages.
