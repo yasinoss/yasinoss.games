@@ -1,5 +1,5 @@
 
-const state={games:[],config:{siteName:'كتالوج الألعاب',whatsappNumber:''},platform:null,catalogFilter:'all',page:1,perPage:16,search:'',sort:'releaseYearDesc',cart:[]};
+const state={games:[],config:{siteName:'كتالوج الألعاب',whatsappNumber:''},platform:null,catalogFilter:'all',page:1,perPage:15,search:'',sort:'releaseYearDesc',cart:[]};
 const $=s=>document.querySelector(s);
 const byId=id=>document.getElementById(id);
 const norm=v=>String(v??'').trim().toLocaleLowerCase('ar');
