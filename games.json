@@ -1,16 +1,16 @@
 [
   {
-    "id": 2,
+    "id": 40002,
     "name": "Assassin's Creed Syndicate",
     "platform": "PS4",
     "image": "https://i.postimg.cc/bwzJXcvb/002.jpg",
     "size": 36,
     "releaseYear": 2015,
-    "genre": "Action",
+    "genre": "Adventure, Action",
     "notes": "مثال تجريبي"
   },
   {
-    "id": 3,
+    "id": 40003,
     "name": "Assassins Creed Unity",
     "platform": "PS4",
     "image": "https://i.postimg.cc/52ntb7H6/003.jpg",
@@ -85,7 +85,7 @@
     "notes": "مع الاضافات"
   },
   {
-    "id": 1,
+    "id": 40001,
     "name": "Assassins Creed Origins",
     "platform": "PS4",
     "size": 70,
@@ -417,6 +417,505 @@
     "releaseYear": 2021,
     "genre": "Survival-Horror",
     "image": "https://i.postimg.cc/63bgSxqH/50040.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40004,
+    "name": "Batman Arkham Knight",
+    "platform": "PS4",
+    "size": 70,
+    "releaseYear": 2015,
+    "genre": "Action, Aventure",
+    "image": "https://i.postimg.cc/6qV4HB4L/40004.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40005,
+    "name": "BATTLEFIELD 1",
+    "platform": "PS4",
+    "size": 39,
+    "releaseYear": 2016,
+    "genre": "FPS",
+    "image": "https://i.postimg.cc/C5CnvwnN/40005.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40006,
+    "name": "Bloodborne",
+    "platform": "PS4",
+    "size": 25,
+    "releaseYear": 2015,
+    "genre": "RPG",
+    "image": "https://i.postimg.cc/yxh3f73j/40006.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40007,
+    "name": "Call of Duty Black Ops III",
+    "platform": "PS4",
+    "size": 110,
+    "releaseYear": 2015,
+    "genre": "Action, FPS",
+    "image": "https://i.postimg.cc/hv8QCKQp/40007.jpg",
+    "notes": "withe DLC"
+  },
+  {
+    "id": 40008,
+    "name": "Call of Duty WWII",
+    "platform": "PS4",
+    "size": 60,
+    "releaseYear": 2017,
+    "genre": "Action, FPS, Shooter",
+    "image": "https://i.postimg.cc/br0S6qSm/40008.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40009,
+    "name": "FAR CRY 5",
+    "platform": "PS4",
+    "size": 43,
+    "releaseYear": 2018,
+    "genre": "Infiltration, Action, FPS",
+    "image": "https://i.postimg.cc/zvwHdqHd/40009.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40010,
+    "name": "Far Cry Primal",
+    "platform": "PS4",
+    "size": 13,
+    "releaseYear": 2016,
+    "genre": "Action, FPS, Aventure",
+    "image": "https://i.postimg.cc/sxPGn3G0/40010.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40011,
+    "name": "FIFA 2018",
+    "platform": "PS4",
+    "size": 40,
+    "releaseYear": 2017,
+    "genre": "Sport",
+    "image": "https://i.postimg.cc/nrK9dn9P/40011.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40012,
+    "name": "GOD OF WAR",
+    "platform": "PS4",
+    "size": 36,
+    "releaseYear": 2018,
+    "genre": "Historique",
+    "image": "https://i.postimg.cc/ry54yNZX/40012.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40013,
+    "name": "Grand Theft Auto V",
+    "platform": "PS4",
+    "size": 42,
+    "releaseYear": 2013,
+    "genre": "Action, FPS, TPS",
+    "image": "https://i.postimg.cc/Y2QF2zDr/40013.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40014,
+    "name": "Hitman",
+    "platform": "PS4",
+    "size": 58,
+    "releaseYear": 2017,
+    "genre": "Infiltration, Action",
+    "image": "https://i.postimg.cc/dQGCQjNV/40014.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40015,
+    "name": "Just Cause 3",
+    "platform": "PS4",
+    "size": 51,
+    "releaseYear": 2015,
+    "genre": "Aventure, Action",
+    "image": "https://i.postimg.cc/xjLmj3pC/40015.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40016,
+    "name": "Mafia III",
+    "platform": "PS4",
+    "size": 59,
+    "releaseYear": 2016,
+    "genre": "Aventure, Action, TPS",
+    "image": "https://i.postimg.cc/pVKjVJcr/40016.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40017,
+    "name": "NBA 2K18",
+    "platform": "PS4",
+    "size": 49,
+    "releaseYear": 2017,
+    "genre": "Sport",
+    "image": "https://i.postimg.cc/v85n8t24/40017.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40018,
+    "name": "Need For Speed Payback",
+    "platform": "PS4",
+    "size": 22,
+    "releaseYear": 2017,
+    "genre": "Course, Sport",
+    "image": "https://i.postimg.cc/598z9SKH/40018.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40019,
+    "name": "Pro Evolution Soccer 2018",
+    "platform": "PS4",
+    "size": 21,
+    "releaseYear": 2017,
+    "genre": "Sport",
+    "image": "https://i.postimg.cc/h4Vm41Z7/40019.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40020,
+    "name": "RESIDENT EVIL 7 biohazard",
+    "platform": "PS4",
+    "size": 20,
+    "releaseYear": 2017,
+    "genre": "Action, Survival-Horror",
+    "image": "https://i.postimg.cc/8kLvkmXW/40020.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40021,
+    "name": "Rise of the Tomb Raider",
+    "platform": "PS4",
+    "size": 18,
+    "releaseYear": 2016,
+    "genre": "Action",
+    "image": "https://i.postimg.cc/bY1nY9Vk/40021.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40022,
+    "name": "Tom Clancy's Ghost Recon Wildlands",
+    "platform": "PS4",
+    "size": 74,
+    "releaseYear": 2017,
+    "genre": "TPS",
+    "image": "https://i.postimg.cc/Pf1DfQVb/40022.jpg",
+    "notes": "With DLC"
+  },
+  {
+    "id": 40023,
+    "name": "UFC 3",
+    "platform": "PS4",
+    "size": 18,
+    "releaseYear": 2018,
+    "genre": "Sport, Combat",
+    "image": "https://i.postimg.cc/vHMV4xC6/40023.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40024,
+    "name": "Uncharted Drakes Fortune Remastered",
+    "platform": "PS4",
+    "size": 42,
+    "releaseYear": 2016,
+    "genre": "Adventure, Action",
+    "image": "https://i.postimg.cc/ncZDX9N7/40024.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40025,
+    "name": "Uncharted The Lost Legacy",
+    "platform": "PS4",
+    "size": 46,
+    "releaseYear": 2017,
+    "genre": "Adventure, Action",
+    "image": "https://i.postimg.cc/4NZ9YHjz/40025.jpg",
+    "notes": "بالدبلجة العربية"
+  },
+  {
+    "id": 40026,
+    "name": "Uncharted 4: A Thief’s End",
+    "platform": "PS4",
+    "size": 59,
+    "releaseYear": 2016,
+    "genre": "Adventure, Action",
+    "image": "https://i.postimg.cc/pXxFm53Q/40026.jpg",
+    "notes": "بالدبلجة العربية"
+  },
+  {
+    "id": 40027,
+    "name": "Watch Dogs 2",
+    "platform": "PS4",
+    "size": 26,
+    "releaseYear": 2016,
+    "genre": "Aventure, Infiltration, Action",
+    "image": "https://i.postimg.cc/vHMV4xCh/40027.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40028,
+    "name": "Dark Souls 2",
+    "platform": "PS4",
+    "size": 11,
+    "releaseYear": 2015,
+    "genre": "RPG, Action",
+    "image": "https://i.postimg.cc/HsHyr8F3/40028.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40029,
+    "name": "NHL 18",
+    "platform": "PS4",
+    "size": 24,
+    "releaseYear": 2017,
+    "genre": "Sport",
+    "image": "https://i.postimg.cc/Wbjkdqx5/40029.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40030,
+    "name": "Assassins Creed Chronicles",
+    "platform": "PS4",
+    "size": 11,
+    "releaseYear": 2016,
+    "genre": "Plate-Forme, Action",
+    "image": "https://i.postimg.cc/xTYzXNBs/40030.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40031,
+    "name": "Crash Bandicoot N Sane Trilogy",
+    "platform": "PS4",
+    "size": 21,
+    "releaseYear": 2017,
+    "genre": "Aventure, Plate-Forme, Action",
+    "image": "https://i.postimg.cc/7YD25JjW/40031.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40032,
+    "name": "Sniper Elite 4",
+    "platform": "PS4",
+    "size": 30,
+    "releaseYear": 2017,
+    "genre": "Infiltration, Action, FPS",
+    "image": "https://i.postimg.cc/TYGDK5BS/40032.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40033,
+    "name": "Horizon Zero Dawn",
+    "platform": "PS4",
+    "size": 45,
+    "releaseYear": 2017,
+    "genre": "RPG, Open World, Action, Aventure",
+    "image": "https://i.postimg.cc/RV9HWJ2j/40033.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40034,
+    "name": "Gravel",
+    "platform": "PS4",
+    "size": 12,
+    "releaseYear": 2018,
+    "genre": "Course, Sport",
+    "image": "https://i.postimg.cc/9FV7Dws6/40034.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40035,
+    "name": "Mad Max",
+    "platform": "PS4",
+    "size": 32,
+    "releaseYear": 2015,
+    "genre": "Aventure, Action",
+    "image": "https://i.postimg.cc/pXxFm5gN/40035.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40036,
+    "name": "STYX: Shards of Darkness",
+    "platform": "PS4",
+    "size": 9,
+    "releaseYear": 2017,
+    "genre": "Infiltration, Action",
+    "image": "https://i.postimg.cc/bNT2kNjC/40036.jpg"
+  },
+  {
+    "id": 40037,
+    "name": "Dragon Ball FighterZ",
+    "platform": "PS4",
+    "size": 4,
+    "releaseYear": 2018,
+    "genre": "Combat",
+    "image": "https://i.postimg.cc/15HNw5Zj/40037.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40038,
+    "name": "TITANFALL 2",
+    "platform": "PS4",
+    "size": 45,
+    "releaseYear": 2016,
+    "genre": "FPS",
+    "image": "https://i.postimg.cc/bNT2kNjM/40038.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40039,
+    "name": "Rayman Legends",
+    "platform": "PS4",
+    "size": 8,
+    "releaseYear": 2014,
+    "genre": "Plate-Forme",
+    "image": "https://i.postimg.cc/Yq3mYqwZ/40039.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40040,
+    "name": "Far Cry 4",
+    "platform": "PS4",
+    "size": 24,
+    "releaseYear": 2014,
+    "genre": "Action, FPS, Aventure",
+    "image": "https://i.postimg.cc/zXjRKXrZ/40040.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40041,
+    "name": "The Last of Us Remastered",
+    "platform": "PS4",
+    "size": 45,
+    "releaseYear": 2014,
+    "genre": "Action, Survival-Horror",
+    "image": "https://i.postimg.cc/bNT2kNhj/40041.jpg",
+    "notes": "توجد ترجمة عربية"
+  },
+  {
+    "id": 40042,
+    "name": "Assassins Creed Freedom Cry",
+    "platform": "PS4",
+    "size": 7,
+    "releaseYear": 2013,
+    "genre": "Historique, Aventure",
+    "image": "https://i.postimg.cc/9FpqZFhC/40042.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40043,
+    "name": "Call of Duty 4: Modern Warfare Remastered",
+    "platform": "PS4",
+    "size": 46,
+    "releaseYear": 2016,
+    "genre": "Action, FPS",
+    "image": "https://i.postimg.cc/J4qBZ4L1/40043.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40044,
+    "name": "Infamous Second Son",
+    "platform": "PS4",
+    "size": 26,
+    "releaseYear": 2014,
+    "genre": "Action-aventure",
+    "image": "https://i.postimg.cc/kXctKXmJ/40044.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40045,
+    "name": "Metro Redux",
+    "platform": "PS4",
+    "size": 12,
+    "releaseYear": 2014,
+    "genre": "FPS, Survival-Horror",
+    "image": "https://i.postimg.cc/9FpqZFhQ/40045.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40046,
+    "name": "WRC 7",
+    "platform": "PS4",
+    "size": 17,
+    "releaseYear": 2017,
+    "genre": "Course, Sport",
+    "image": "https://i.postimg.cc/L6TZL6ps/40046.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40047,
+    "name": "Mortal Kombat XL",
+    "platform": "PS4",
+    "size": 38,
+    "releaseYear": 2016,
+    "genre": "Combat",
+    "image": "https://i.postimg.cc/rFJtxFkm/40047.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40048,
+    "name": "Unravel",
+    "platform": "PS4",
+    "size": 3,
+    "releaseYear": 2016,
+    "genre": "Plate-Forme, Réflexion",
+    "image": "https://i.postimg.cc/ZKcypKSC/40048.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40049,
+    "name": "Leo's Fortune",
+    "platform": "PS4",
+    "size": 1,
+    "releaseYear": 2015,
+    "genre": "Plate-Forme",
+    "image": "https://i.postimg.cc/Pr48YrjC/40049.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40050,
+    "name": "Darksiders II",
+    "platform": "PS4",
+    "size": 13,
+    "releaseYear": 2015,
+    "genre": "Action Aventure",
+    "image": "https://i.postimg.cc/K883NSGm/40050.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40051,
+    "name": "Never Alone",
+    "platform": "PS4",
+    "size": 2,
+    "releaseYear": 2014,
+    "genre": "Plate-Forme",
+    "image": "https://i.postimg.cc/9FpqZFh4/40051.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40052,
+    "name": "Assassins Creed Odyssey",
+    "platform": "PS4",
+    "size": 42,
+    "releaseYear": 2018,
+    "genre": "Open World, Action, RPG",
+    "image": "https://i.postimg.cc/fRRSKnzw/40052.jpg",
+    "notes": ""
+  },
+  {
+    "id": 40053,
+    "name": "Red Dead Redemption 2",
+    "platform": "PS4",
+    "size": 80,
+    "releaseYear": 2018,
+    "genre": "Open World, Aventure, Action, TPS",
+    "image": "https://i.postimg.cc/Z55vctbq/40053.jpg",
     "notes": ""
   }
 ]
