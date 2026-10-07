@@ -6,7 +6,7 @@
     "image": "https://i.postimg.cc/bwzJXcvb/002.jpg",
     "size": 36,
     "releaseYear": 2015,
-    "genre": "Adventure, Action",
+    "genre": "Adventure, Action, Open World",
     "notes": "مثال تجريبي"
   },
   {
@@ -16,7 +16,7 @@
     "image": "https://i.postimg.cc/52ntb7H6/003.jpg",
     "size": 37,
     "releaseYear": 2014,
-    "genre": "Adventure, Action",
+    "genre": "Adventure, Action, Open World",
     "notes": "مثال تجريبي"
   },
   {
@@ -54,7 +54,7 @@
     "image": "https://i.postimg.cc/3x2yJLFp/50004.jpg",
     "size": 60,
     "releaseYear": 2026,
-    "genre": "Jeu d'action-aventure, Jeu d'infiltration, Adventure"
+    "genre": "Action, Open World, Adventure"
   },
   {
     "id": 50007,
@@ -63,7 +63,7 @@
     "image": "https://i.postimg.cc/528HNPSq/50007.jpg",
     "size": 142,
     "releaseYear": 2020,
-    "genre": "Action, combat, Jeu de plateforme, Adventure"
+    "genre": "Action, combat, Open World, Adventure"
   },
   {
     "id": 50005,
@@ -72,7 +72,7 @@
     "image": "https://i.postimg.cc/kgWVXjvK/50005.jpg",
     "size": 59,
     "releaseYear": 2023,
-    "genre": "combat, Jeu de plateforme, Adventure"
+    "genre": "combat, Adventure, Open World"
   },
   {
     "id": 50006,
@@ -81,7 +81,7 @@
     "image": "https://i.postimg.cc/x1LkTs3L/50006.jpg",
     "size": 142,
     "releaseYear": 2025,
-    "genre": "Action-RPG, Gameplay non linéaire",
+    "genre": "RPG, Action, Open World",
     "notes": "مع الاضافات"
   },
   {
@@ -90,7 +90,7 @@
     "platform": "PS4",
     "size": 70,
     "releaseYear": 2017,
-    "genre": "RPG, Action",
+    "genre": "RPG, Open World, Action, Aventure",
     "image": "https://i.postimg.cc/ZKvtsfm8/001.jpg",
     "notes": "اللعبة بها ترجمة عربية"
   },
@@ -218,7 +218,7 @@
     "platform": "PS5",
     "size": 96,
     "releaseYear": 2013,
-    "genre": "Action, FPS",
+    "genre": "Open World, FPS, Action",
     "image": "https://i.postimg.cc/9fVD4GLb/50020.jpg"
   },
   {
@@ -227,7 +227,7 @@
     "platform": "PS5",
     "size": 23,
     "releaseYear": 2021,
-    "genre": "Action",
+    "genre": "Open World, FPS, Action",
     "image": "https://i.postimg.cc/W3t18mL2/50021.jpg"
   },
   {
@@ -236,7 +236,7 @@
     "platform": "PS5",
     "size": 11,
     "releaseYear": 2021,
-    "genre": "Action",
+    "genre": "Open World, FPS, Action",
     "image": "https://i.postimg.cc/Vk6LBQy1/50022.jpg"
   },
   {
@@ -513,9 +513,8 @@
     "platform": "PS4",
     "size": 42,
     "releaseYear": 2013,
-    "genre": "Action, FPS, TPS",
-    "image": "https://i.postimg.cc/Y2QF2zDr/40013.jpg",
-    "notes": ""
+    "genre": "Open World, FPS, Action",
+    "image": "https://i.postimg.cc/Y2QF2zDr/40013.jpg"
   },
   {
     "id": 40014,
@@ -802,9 +801,8 @@
     "platform": "PS4",
     "size": 7,
     "releaseYear": 2013,
-    "genre": "Historique, Aventure",
-    "image": "https://i.postimg.cc/9FpqZFhC/40042.jpg",
-    "notes": ""
+    "genre": "Historique, Aventure, Open World",
+    "image": "https://i.postimg.cc/9FpqZFhC/40042.jpg"
   },
   {
     "id": 40043,
@@ -902,9 +900,8 @@
     "platform": "PS4",
     "size": 42,
     "releaseYear": 2018,
-    "genre": "Open World, Action, RPG",
-    "image": "https://i.postimg.cc/fRRSKnzw/40052.jpg",
-    "notes": ""
+    "genre": "RPG, Open World, Action, Aventure",
+    "image": "https://i.postimg.cc/fRRSKnzw/40052.jpg"
   },
   {
     "id": 40053,
@@ -1270,7 +1267,7 @@
     "platform": "PS4",
     "size": 114,
     "releaseYear": 2020,
-    "genre": "Aventure, Action",
+    "genre": "Aventure, Action, Open World",
     "image": "https://i.postimg.cc/DyCbKcFP/40089.jpg",
     "notes": "with DLC"
   },
@@ -1429,9 +1426,8 @@
     "platform": "PS4",
     "size": 40,
     "releaseYear": 2016,
-    "genre": "Adventure, Action",
-    "image": "https://i.postimg.cc/HsS7CtdL/40106.jpg",
-    "notes": ""
+    "genre": "Adventure, Action, Open World",
+    "image": "https://i.postimg.cc/HsS7CtdL/40106.jpg"
   },
   {
     "id": 40107,
