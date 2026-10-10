@@ -2561,5 +2561,63 @@
     "genre": "Plate-Forme, Action",
     "image": "https://i.postimg.cc/Z5pJQ57L/40220.jpg",
     "notes": ""
+  },
+  {
+    "id": 50041,
+    "name": "Resonance : A Plague Tale Legacy",
+    "platform": "PS5",
+    "size": 61,
+    "releaseYear": 2026,
+    "genre": "Aventure, Infiltration, Action",
+    "image": "https://i.postimg.cc/Kjrg2h5k/50041.jpg"
+  },
+  {
+    "id": 50042,
+    "name": "Silent Hill: Townfall",
+    "platform": "PS5",
+    "size": 52,
+    "releaseYear": 2026,
+    "genre": "Survival-Horror",
+    "image": "https://i.postimg.cc/FzDsprZf/50042.jpg"
+  },
+  {
+    "id": 50043,
+    "name": "Demon's Souls Remake",
+    "platform": "PS5",
+    "size": 50,
+    "releaseYear": 2020,
+    "genre": "Action, RPG",
+    "image": "https://i.postimg.cc/R059cJm5/50043.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50044,
+    "name": "Gran Turismo 7",
+    "platform": "PS5",
+    "size": 125,
+    "releaseYear": 2022,
+    "genre": "Course, Sport",
+    "image": "https://i.postimg.cc/wjJYTxmD/50044.jpg",
+    "notes": "كاملة مع امكانية التسجيل"
+  },
+  {
+    "id": 50045,
+    "name": "NBA 2K27",
+    "platform": "PS5",
+    "size": 107,
+    "releaseYear": 2026,
+    "genre": "Sport",
+    "image": "https://i.postimg.cc/Tw3smTpr/50045.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50046,
+    "name": "WRC 10 FIA World Rally Championship",
+    "platform": "PS5",
+    "size": 33,
+    "releaseYear": 2021,
+    "genre": "Simulation, Course, Sport",
+    "image": "https://i.postimg.cc/h4zB30tM/50046.jpg",
+    "notes": ""
   }
 ]
