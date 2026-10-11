@@ -2638,5 +2638,14 @@
     "genre": "Survival-Horror, FPS, Action",
     "image": "https://i.postimg.cc/Jnby0jjP/50048.jpg",
     "notes": ""
+  },
+  {
+    "id": 50049,
+    "name": "Death Stranding Directors Cut",
+    "platform": "PS5",
+    "size": 64,
+    "releaseYear": 2021,
+    "genre": "Adventure",
+    "image": "https://i.postimg.cc/3JnY15Vy/50049.jpg"
   }
 ]
