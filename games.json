@@ -2619,5 +2619,24 @@
     "genre": "Simulation, Course, Sport",
     "image": "https://i.postimg.cc/h4zB30tM/50046.jpg",
     "notes": ""
+  },
+  {
+    "id": 50047,
+    "name": "Dying Light 2: Stay Human",
+    "platform": "PS5",
+    "size": 50,
+    "releaseYear": 2022,
+    "genre": "Survival-Horror, FPS, Action",
+    "image": "https://i.postimg.cc/GpCK5m7h/50047.jpg"
+  },
+  {
+    "id": 50048,
+    "name": "Dying Light: The Beast",
+    "platform": "PS5",
+    "size": 38,
+    "releaseYear": 2025,
+    "genre": "Survival-Horror, FPS, Action",
+    "image": "https://i.postimg.cc/Jnby0jjP/50048.jpg",
+    "notes": ""
   }
 ]
