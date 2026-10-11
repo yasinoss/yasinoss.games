@@ -2647,5 +2647,15 @@
     "releaseYear": 2021,
     "genre": "Adventure",
     "image": "https://i.postimg.cc/3JnY15Vy/50049.jpg"
+  },
+  {
+    "id": 50050,
+    "name": "Cyberpunk 2077",
+    "platform": "PS5",
+    "size": 93,
+    "releaseYear": 2022,
+    "genre": "RPG, Action",
+    "image": "https://i.postimg.cc/W1dKRQWW/50050.jpg",
+    "notes": ""
   }
 ]
