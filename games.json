@@ -135,13 +135,12 @@
   },
   {
     "id": 50012,
-    "name": "Crimson Desert",
+    "name": "Crimson Desert Enhanced",
     "platform": "PS5",
     "size": 78,
     "releaseYear": 2026,
     "genre": "Open World, MMORPG",
-    "image": "https://i.postimg.cc/rw5dFhNg/50012.jpg",
-    "notes": ""
+    "image": "https://i.postimg.cc/vTsVCSyh/50012.jpg"
   },
   {
     "id": 50013,
@@ -3316,6 +3315,25 @@
     "releaseYear": 2026,
     "genre": "Survival-Horror, Action, Puzzle",
     "image": "https://i.postimg.cc/pdfv6qZb/40286.jpg",
+    "notes": ""
+  },
+  {
+    "id": 50051,
+    "name": "Beast of Reincarnation",
+    "platform": "PS5",
+    "size": 22,
+    "releaseYear": 2026,
+    "genre": "RPG, Action",
+    "image": "https://i.postimg.cc/LssK3HZz/50051.jpg"
+  },
+  {
+    "id": 50052,
+    "name": "MXGP 26",
+    "platform": "PS4",
+    "size": 22,
+    "releaseYear": 2026,
+    "genre": "Course, Sport",
+    "image": "https://i.postimg.cc/dV2txt1x/50052.jpg",
     "notes": ""
   }
 ]
