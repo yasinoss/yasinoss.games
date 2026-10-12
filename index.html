@@ -3,133 +3,119 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b0d12">
-  <meta name="description" content="كتالوج ألعاب لطلبات التنصيب عبر واتساب.">
+  <meta name="theme-color" content="#0a0b12">
+  <meta name="description" content="Yasinoss Games — خدمة تنصيب ألعاب PlayStation. اختر جهازك وألعابك وأرسل الطلب عبر واتساب.">
   <title>Yasinoss Games</title>
   <link rel="icon" href="High-Tech.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Cormorant+Garamond:ital,wght@1,500&family=Reem+Kufi:wght@500;700&family=Tajawal:wght@400;500;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <a class="brand" href="#top" aria-label="الصفحة الرئيسية">
-        <img src="High-Tech.svg" alt="شعار الموقع" class="brand-logo">
-        <span id="siteName">yasinoss Games</span>
+        <img src="High-Tech.svg" alt="شعار الموقع" class="brand-logo" width="48" height="48">
+        <span class="brand-text">
+          <span class="brand-main" data-brand-main>Yasinoss</span>
+          <span class="brand-sub" data-brand-sub>Games</span>
+        </span>
       </a>
-      <nav class="header-actions" aria-label="التنقل السريع">
-        <button id="changePlatformBtn" class="text-btn hidden" type="button">تغيير الجهاز</button>
+
+      <div class="header-actions">
+        <div id="headerSwitch" class="device-switch mini hidden" role="radiogroup" aria-label="تغيير الجهاز">
+          <span class="switch-thumb" aria-hidden="true"></span>
+          <button type="button" role="radio" aria-checked="false" data-platform="PS4">PS4</button>
+          <button type="button" role="radio" aria-checked="false" data-platform="PS5">PS5</button>
+          <button type="button" role="radio" aria-checked="false" data-platform="PS3" class="ps3-opt hidden">PS3</button>
+        </div>
         <button id="cartBtn" class="cart-btn" type="button" aria-label="فتح سلة الطلب">
-          <span>🛒 الطلب</span>
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 4h2.2l2.1 10.4a1 1 0 0 0 1 .8h8.4a1 1 0 0 0 1-.8L19.5 8H6"/><circle cx="9.5" cy="19.2" r="1.3"/><circle cx="16.5" cy="19.2" r="1.3"/></svg>
+          <span class="cart-label">الطلب</span>
           <b id="cartCount">0</b>
         </button>
-      </nav>
+      </div>
     </div>
   </header>
 
   <main id="top">
     <section class="hero">
       <div class="container hero-inner">
-        <div>
-          <span class="eyebrow">كتالوج تنصيب الألعاب</span>
-          <h1>اختر ألعابك وأرسل الطلب مباشرة عبر واتساب</h1>
-          <p>حدد جهازك أولًا، ثم تصفح الألعاب المتوافقة، أضف ما تريد إلى الطلب وأرسله في رسالة واحدة.</p>
-        </div>
-        <div class="hero-badge" aria-hidden="true">
-          <span>PS4</span>
-          <span>PS5</span>
-          <span id="heroPS3Badge" class="hidden">PS3</span>
-        </div>
-      </div>
-    </section>
+        <div class="hero-copy">
+          <p class="hero-welcome">أهلًا بك في</p>
+          <h1 class="wordmark">
+            <span class="wm-main" data-brand-main>Yasinoss</span>
+            <span class="wm-sub" data-brand-sub>Games</span>
+          </h1>
+          <p class="hero-lead" id="heroLead">نُنصّب ألعاب PlayStation على جهازك</p>
+          <p class="hero-sub" id="heroSub">اختر جهازك، تصفّح مكتبة الألعاب، وأرسل طلب التنصيب كاملًا عبر واتساب في رسالة واحدة.</p>
 
-    <section class="container platform-section" id="platformSection">
-      <div class="section-heading">
-        <div>
-          <span class="section-kicker">الخطوة 1</span>
-          <h2>اختر جهازك</h2>
+          <div class="device-picker" id="platformSection">
+            <span class="picker-label" id="pickerLabel">ما هو جهازك؟</span>
+            <div class="device-switch big" role="radiogroup" aria-labelledby="pickerLabel">
+              <span class="switch-thumb" aria-hidden="true"></span>
+              <button type="button" role="radio" aria-checked="false" data-platform="PS4"><b>PS4</b><small>PlayStation 4</small></button>
+              <button type="button" role="radio" aria-checked="false" data-platform="PS5"><b>PS5</b><small>PlayStation 5</small></button>
+              <button type="button" role="radio" aria-checked="false" data-platform="PS3" class="ps3-opt hidden"><b>PS3</b><small>PlayStation 3</small></button>
+            </div>
+            <p class="picker-rule" id="selectedPlatformRule" aria-live="polite">اختر جهازك لتظهر لك الألعاب المتوافقة معه فقط.</p>
+          </div>
         </div>
-        <p id="platformHint">سيتم تقييد الكتالوج حسب الجهاز الذي تختاره.</p>
-      </div>
 
-      <div class="platform-grid" id="platformChooser">
-        <button class="platform-card" data-platform="PS4" type="button">
-          <span class="platform-icon">PS4</span>
-          <span class="platform-title">PlayStation 4</span>
-          <span class="platform-subtitle">ألعاب PS4 فقط</span>
-        </button>
-        <button class="platform-card" data-platform="PS5" type="button">
-          <span class="platform-icon">PS5</span>
-          <span class="platform-title">PlayStation 5</span>
-          <span class="platform-subtitle">ألعاب PS4 و PS5</span>
-        </button>
-        <button class="platform-card hidden" data-platform="PS3" id="ps3PlatformCard" type="button">
-          <span class="platform-icon">PS3</span>
-          <span class="platform-title">PlayStation 3</span>
-          <span class="platform-subtitle">ألعاب PS3 فقط</span>
-        </button>
-      </div>
-
-      <div id="selectedPlatform" class="selected-platform hidden">
-        <div>
-          <span class="section-kicker">الجهاز المختار</span>
-          <strong id="selectedPlatformLabel">PS4</strong>
-          <small id="selectedPlatformRule"></small>
-        </div>
-        <span class="lock-pill">🔒 مقفل</span>
       </div>
     </section>
 
     <section class="container catalog-section hidden" id="catalogSection">
-      <div class="section-heading catalog-heading">
-        <div>
-          <span class="section-kicker">الخطوة 2</span>
-          <h2>تصفح الألعاب</h2>
-        </div>
+      <div class="section-heading">
+        <h2>تصفح الألعاب</h2>
         <span id="resultSummary" class="result-summary"></span>
       </div>
 
       <div class="toolbar">
         <label class="search-box" for="searchInput">
-          <span aria-hidden="true">⌕</span>
-          <input id="searchInput" type="search" placeholder="ابحث باسم اللعبة أو رقمها أو النوع..." autocomplete="off">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="6.5"/><path d="m16 16 4 4"/></svg>
+          <input id="searchInput" type="search" placeholder="ابحث باسم اللعبة أو رقمها أو النوع" autocomplete="off">
+          <button id="clearSearch" class="clear-search hidden" type="button" aria-label="مسح البحث">×</button>
         </label>
-        <label class="filter-box" for="platformFilter">
-          <span>المنصة</span>
+        <label class="select-box hidden" for="platformFilter" id="platformFilterBox">
+          <span>عرض</span>
           <select id="platformFilter">
-            <option value="all">كل الألعاب المتوافقة</option>
-            <option value="PS4">PS4</option>
-            <option value="PS5">PS5</option>
+            <option value="all">PS4 + PS5</option>
+            <option value="PS4">PS4 فقط</option>
+            <option value="PS5">PS5 فقط</option>
           </select>
         </label>
-        <label class="sort-box" for="sortSelect">
+        <label class="select-box" for="sortSelect">
           <span>ترتيب</span>
           <select id="sortSelect">
+            <option value="releaseYearDesc">الأحدث</option>
+            <option value="releaseYearAsc">الأقدم</option>
             <option value="name">الاسم</option>
-            <option value="releaseYearDesc">الأحدث إصدارًا</option>
-            <option value="releaseYearAsc">الأقدم إصدارًا</option>
-            <option value="id">رقم اللعبة</option>
+            <option value="id">الرقم</option>
           </select>
         </label>
       </div>
 
+      <div id="genreChips" class="chips" role="group" aria-label="التصنيفات"></div>
       <div id="activeFilters" class="active-filters" aria-live="polite"></div>
       <div id="gamesGrid" class="games-grid" aria-live="polite"></div>
 
       <div id="emptyState" class="empty-state hidden">
-        <div class="empty-icon">⌁</div>
         <h3>لم نجد ألعابًا مطابقة</h3>
-        <p>جرّب كلمة بحث أخرى.</p>
+        <p>جرّب كلمة بحث أخرى أو غيّر التصنيف.</p>
+        <button id="resetFilters" class="solid-btn reset-btn" type="button">مسح البحث والتصنيف</button>
       </div>
 
-      <div id="pagination" class="pagination" aria-label="تصفح صفحات الألعاب"></div>
+      <div id="pagination" class="pagination" aria-label="عرض المزيد"></div>
     </section>
   </main>
 
-
   <footer class="site-footer">
     <div class="container site-footer-inner">
-      <div>
-        <strong>yasinoss Games</strong>
+      <div class="footer-brand">
+        <span class="brand-main" data-brand-main>Yasinoss</span>
+        <span class="brand-sub" data-brand-sub>Games</span>
         <p>All rights reserved for High-Tech</p>
       </div>
       <div class="footer-contact">
@@ -139,20 +125,21 @@
     </div>
   </footer>
 
+  <button id="cartBar" class="cart-bar hidden" type="button" aria-label="عرض سلة الطلب">
+    <span class="cart-bar-info"><b id="barCount">0</b> لعبة في طلبك <span id="barSize" dir="ltr">0 GB</span></span>
+    <span class="cart-bar-cta">عرض الطلب</span>
+  </button>
+
   <aside id="cartDrawer" class="cart-drawer" aria-hidden="true">
     <div class="drawer-backdrop" id="drawerBackdrop"></div>
     <section class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
       <header class="drawer-header">
-        <div>
-          <span class="section-kicker">الخطوة 3</span>
-          <h2 id="cartTitle">سلة الطلب</h2>
-        </div>
+        <h2 id="cartTitle">سلة الطلب</h2>
         <button id="closeCartBtn" class="icon-btn" type="button" aria-label="إغلاق السلة">×</button>
       </header>
 
       <div id="cartItems" class="cart-items"></div>
       <div id="cartEmpty" class="cart-empty">
-        <div class="empty-icon">🛒</div>
         <h3>السلة فارغة</h3>
         <p>أضف ألعابًا من الكتالوج لتكوين طلبك.</p>
       </div>
@@ -160,11 +147,19 @@
       <footer class="cart-footer">
         <div class="cart-stats">
           <div><span>عدد الألعاب</span><strong id="cartTotalGames">0</strong></div>
-          <div><span>إجمالي المساحة</span><strong id="cartTotalSize">0 GB</strong></div>
+          <div><span>إجمالي المساحة</span><strong id="cartTotalSize" dir="ltr">0 GB</strong></div>
         </div>
-        <button id="sendWhatsAppBtn" class="primary-btn full" type="button">إرسال الطلب عبر واتساب</button>
+        <div class="order-fields">
+          <input id="customerName" type="text" placeholder="اسمك (اختياري)" autocomplete="name" maxlength="60">
+          <input id="customerNote" type="text" placeholder="ملاحظة للطلب (اختياري)" maxlength="140">
+        </div>
+        <button id="sendWhatsAppBtn" class="solid-btn full" type="button">إرسال الطلب عبر واتساب</button>
+        <div id="sentNote" class="sent-note hidden">
+          <span>تم فتح واتساب. بعد إرسال الرسالة يمكنك إفراغ السلة.</span>
+          <button id="sentClearBtn" type="button">إفراغ السلة</button>
+        </div>
         <button id="clearCartBtn" class="danger-btn full" type="button">إفراغ السلة</button>
-        <p class="tiny-note">لن يتم حفظ بيانات الطلب على خادم؛ السلة تبقى داخل متصفح العميل فقط حتى إرسالها أو حذفها.</p>
+        <p class="tiny-note">لا يتم حفظ بيانات الطلب على أي خادم؛ السلة تبقى داخل متصفحك فقط حتى تُرسَل أو تُحذف.</p>
       </footer>
     </section>
   </aside>
