@@ -201,6 +201,7 @@ function cardHtml(g) {
   return `
     <div class="game-image-wrap">
       <img class="game-image" src="${escapeHtml(g.image)}" alt="${escapeHtml(g.name)}" width="286" height="350" loading="lazy" decoding="async">
+      ${trailerBadge(g)}
     </div>
     <div class="game-body">
       <h3 class="game-title" dir="auto">${escapeHtml(g.name)}</h3>
@@ -281,6 +282,80 @@ function renderChips() {
 
 function scrollCatalog() { byId('catalogSection').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
 
+/* ---------- العرض الدعائي (Trailer) ---------- */
+function parseTrailer(url) {
+  const u = String(url || '').trim();
+  if (!/^https?:\/\//i.test(u)) return null;
+  let h; try { h = new URL(u); } catch { return null; }
+  const host = h.hostname.replace(/^(www|m|music)\./, '');
+  let id = null;
+  if (host === 'youtu.be') id = h.pathname.slice(1).split('/')[0];
+  else if (host === 'youtube.com' || host === 'youtube-nocookie.com') {
+    if (h.pathname === '/watch') id = h.searchParams.get('v');
+    else { const m = h.pathname.match(/^\/(?:embed|shorts|live|v)\/([\w-]{11})/); if (m) id = m[1]; }
+  }
+  if (id && /^[\w-]{11}$/.test(id)) return { type: 'youtube', id, url: u };
+  if (host === 'vimeo.com' || host === 'player.vimeo.com') {
+    const m = h.pathname.match(/(\d{6,})/);
+    if (m) return { type: 'vimeo', id: m[1], url: u };
+  }
+  if (/\.(mp4|webm|ogv)$/i.test(h.pathname)) return { type: 'file', url: u };
+  return { type: 'link', url: u };
+}
+function trailerBadge(g) {
+  return parseTrailer(g.trailer) ? '<span class="trailer-badge" title="يتوفر عرض دعائي" aria-label="يتوفر عرض دعائي">▶</span>' : '';
+}
+function trailerHtml(g) {
+  const t = parseTrailer(g.trailer);
+  if (!t) return '';
+  let body;
+  if (t.type === 'file') {
+    body = `<div class="trailer-box"><video controls preload="metadata" playsinline src="${escapeHtml(t.url)}"></video></div>`;
+  } else if (t.type === 'link') {
+    body = `<a class="trailer-link" href="${escapeHtml(t.url)}" target="_blank" rel="noopener noreferrer">▶ مشاهدة العرض الدعائي</a>`;
+  } else {
+    const poster = t.type === 'youtube' ? `https://i.ytimg.com/vi/${t.id}/hqdefault.jpg` : g.image;
+    body = `<div class="trailer-box" data-type="${t.type}" data-id="${escapeHtml(t.id)}">
+      <button class="trailer-play" type="button" aria-label="تشغيل العرض الدعائي">
+        <img src="${escapeHtml(poster)}" alt="" loading="lazy">
+        <span class="play-icon"><svg viewBox="0 0 24 24" width="26" height="26" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg></span>
+      </button>
+    </div>`;
+  }
+  return `<div class="trailer-block"><span class="trailer-label">العرض الدعائي</span>${body}</div>`;
+}
+function playTrailer(box, name) {
+  const { type, id } = box.dataset;
+  const src = type === 'youtube'
+    ? `https://www.youtube-nocookie.com/embed/${id}?autoplay=1&rel=0&playsinline=1`
+    : `https://player.vimeo.com/video/${id}?autoplay=1`;
+  box.innerHTML = `<iframe src="${src}" title="${escapeHtml(name)}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>`;
+}
+
+/* ---------- زر العودة لأعلى ---------- */
+function initToTop() {
+  const b = byId('toTop');
+  if (!b) return;
+  const ring = b.querySelector('.ring-fg');
+  const C = 2 * Math.PI * 21;
+  ring.style.strokeDasharray = C;
+  let queued = false;
+  const update = () => {
+    queued = false;
+    const y = window.scrollY || document.documentElement.scrollTop;
+    const max = document.documentElement.scrollHeight - window.innerHeight;
+    const show = y > 400;
+    b.classList.toggle('show', show);
+    b.setAttribute('aria-hidden', String(!show));
+    b.tabIndex = show ? 0 : -1;
+    ring.style.strokeDashoffset = C * (1 - (max > 0 ? Math.min(1, y / max) : 0));
+  };
+  window.addEventListener('scroll', () => { if (!queued) { queued = true; requestAnimationFrame(update); } }, { passive: true });
+  window.addEventListener('resize', update);
+  b.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
+  update();
+}
+
 /* ---------- تفاصيل اللعبة ---------- */
 function showGameDetails(g) {
   closeDetails();
@@ -290,8 +365,9 @@ function showGameDetails(g) {
   m.innerHTML = `
     <div class="drawer-backdrop" style="opacity:1"></div>
     <section class="modal-card" role="dialog" aria-modal="true" aria-label="${escapeHtml(g.name)}">
-      <button class="icon-btn close-details" type="button" aria-label="إغلاق">×</button>
-      <img src="${escapeHtml(g.image)}" alt="${escapeHtml(g.name)}" width="286" height="350">
+      <div class="modal-media" title="اضغط للإغلاق">
+        <img class="modal-cover" src="${escapeHtml(g.image)}" alt="${escapeHtml(g.name)}" width="286" height="350">
+      </div>
       <div class="modal-copy">
         <span class="section-kicker">تفاصيل اللعبة</span>
         <h2 dir="auto">${escapeHtml(g.name)}</h2>
@@ -302,6 +378,7 @@ function showGameDetails(g) {
           <div><span>سنة الإصدار</span><strong>${escapeHtml(g.releaseYear)}</strong></div>
           <div><span>النوع</span><strong>${escapeHtml(g.genre)}</strong></div>
         </div>
+        ${trailerHtml(g)}
         ${g.notes ? `<p class="detail-notes" dir="auto">${escapeHtml(g.notes)}</p>` : ''}
         <button class="solid-btn detail-add" type="button">${inCart(g.id) ? 'إزالة من الطلب' : 'إضافة للطلب'}</button>
       </div>
@@ -309,10 +386,13 @@ function showGameDetails(g) {
   document.body.appendChild(m);
   document.body.style.overflow = 'hidden';
   const close = () => closeDetails(opener);
-  m.querySelector('.close-details').onclick = close;
+  m.querySelector('.modal-media').onclick = close;          // الضغط على الصورة يغلق النافذة
+  const tp = m.querySelector('.trailer-play');
+  if (tp) tp.onclick = () => { playTrailer(tp.parentElement, g.name); };
   m.querySelector('.drawer-backdrop').onclick = close;
   m.querySelector('.detail-add').onclick = () => { toggleCart(g); close(); };
-  m.querySelector('.close-details').focus();
+  m.querySelector('.modal-card').setAttribute('tabindex', '-1');
+  m.querySelector('.modal-card').focus();
 }
 function closeDetails(opener) {
   const old = document.querySelector('.details-modal');
@@ -613,6 +693,7 @@ function init(games, config) {
   });
 
   renderCart();
+  initToTop();
 
   /* استرجاع الجهاز المحفوظ */
   const saved = store.get(KEY_PLATFORM);
