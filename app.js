@@ -201,11 +201,10 @@ function cardHtml(g) {
   return `
     <div class="game-image-wrap">
       <img class="game-image" src="${escapeHtml(g.image)}" alt="${escapeHtml(g.name)}" width="286" height="350" loading="lazy" decoding="async">
-      ${trailerBadge(g)}
     </div>
     <div class="game-body">
       <h3 class="game-title" dir="auto">${escapeHtml(g.name)}</h3>
-      <div class="meta"><span dir="ltr">${escapeHtml(g.size)} GB</span><span>${escapeHtml(g.releaseYear)}</span></div>
+      <div class="meta"><span dir="ltr">${escapeHtml(g.size)} GB</span><span>${escapeHtml(g.releaseYear)}</span>${trailerBadge(g)}</div>
       <p class="game-genre" dir="auto">${escapeHtml(g.genre)}</p>
       <button class="add-btn ${added ? 'added' : ''}" type="button">${added ? '✓ تمت الإضافة' : '＋ إضافة للطلب'}</button>
     </div>`;
@@ -303,7 +302,9 @@ function parseTrailer(url) {
   return { type: 'link', url: u };
 }
 function trailerBadge(g) {
-  return parseTrailer(g.trailer) ? '<span class="trailer-badge" title="يتوفر عرض دعائي" aria-label="يتوفر عرض دعائي">▶</span>' : '';
+  return parseTrailer(g.trailer)
+    ? '<span class="trailer-badge" title="يتوفر عرض دعائي" aria-label="يتوفر عرض دعائي"><svg viewBox="0 0 24 24" width="13" height="13" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg></span>'
+    : '';
 }
 function trailerHtml(g) {
   const t = parseTrailer(g.trailer);

@@ -419,11 +419,7 @@ body.has-bar .toast { bottom: 92px; }
 @keyframes switch-in { from { opacity: 0; transform: translateY(-8px) scale(.94); } to { opacity: 1; transform: none; } }
 
 /* ---------- شارة الفيديو على البطاقة ---------- */
-.trailer-badge {
-  position: absolute; z-index: 1; top: 8px; right: 8px; width: 28px; height: 28px; border-radius: 50%;
-  display: grid; place-items: center; padding-inline-start: 2px; font-size: 11px; color: var(--ink);
-  background: var(--accent); box-shadow: 0 4px 14px rgba(0, 0, 0, .5);
-}
+.meta .trailer-badge { display: inline-flex; align-items: center; background: var(--accent); color: var(--ink); }
 
 /* ---------- العرض الدعائي داخل النافذة ---------- */
 .trailer-block { margin-top: 14px; }
@@ -468,5 +464,5 @@ body.has-bar .toast { bottom: 92px; }
 body.has-bar .to-top { bottom: calc(92px + env(safe-area-inset-bottom, 0px)); }
 @media (max-width: 720px) {
   .to-top { left: 12px; width: 46px; height: 46px; }
-  .trailer-badge { top: 5px; right: 5px; width: 22px; height: 22px; font-size: 9px; }
+  .meta .trailer-badge svg { width: 10px; height: 10px; }
 }
