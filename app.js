@@ -234,7 +234,7 @@ function renderGames(append = false) {
   byId('activeFilters').textContent = [
     state.search ? `بحث: ${state.search}` : '',
     state.genre !== 'all' ? `التصنيف: ${(document.querySelector('.chip.active')?.textContent || state.genre).replace(/\s*\(\d+\)$/, '')}` : '',
-    state.platform === 'PS5' && state.catalogFilter !== 'all' ? `المنصة: ${state.catalogFilter}` : ''
+    ''
   ].filter(Boolean).join(' • ');
 
   const pg = byId('pagination');
@@ -343,7 +343,7 @@ const THEME_COLORS = { PS4: '#0c1730', PS5: '#160f33', PS3: '#12171d', none: '#0
 const RULES = { PS4: 'لعبة PS4', PS5: 'لعبة PS4 وPS5', PS3: 'لعبة PS3' };
 
 function updateSwitches() {
-  document.querySelectorAll('.device-switch').forEach(sw => {
+  document.querySelectorAll('.device-switch:not(.view-switch)').forEach(sw => {
     const opts = [...sw.querySelectorAll('[data-platform]')].filter(b => !b.classList.contains('hidden'));
     const i = opts.findIndex(b => b.dataset.platform === state.platform);
     sw.style.setProperty('--n', opts.length || 1);
@@ -354,6 +354,21 @@ function updateSwitches() {
       b.classList.toggle('active', on);
       b.setAttribute('aria-checked', on);
     });
+  });
+}
+
+/* مفتاح العرض (PS4 / PS5 / الكل) داخل قائمة PS5 — الافتراضي PS5 */
+function updateViewSwitch() {
+  const sw = byId('viewSwitch');
+  const opts = [...sw.querySelectorAll('[data-view]')];
+  const i = opts.findIndex(b => b.dataset.view === state.catalogFilter);
+  sw.style.setProperty('--n', opts.length);
+  sw.classList.toggle('has-value', i >= 0);
+  if (i >= 0) sw.style.setProperty('--i', i);
+  opts.forEach(b => {
+    const on = b.dataset.view === state.catalogFilter;
+    b.classList.toggle('active', on);
+    b.setAttribute('aria-checked', on);
   });
 }
 
@@ -368,9 +383,8 @@ function selectPlatform(platform, { scroll = false, silent = false } = {}) {
   }
   state.platform = platform;
   store.set(KEY_PLATFORM, platform);
-  state.catalogFilter = 'all';
+  state.catalogFilter = platform === 'PS5' ? 'PS5' : 'all';     // الافتراضي مع PS5: ألعاب PS5
   state.genre = 'all';
-  byId('platformFilter').value = 'all';
 
   const removed = pruneCart();
   if (removed && !silent) showToast(`تم حذف ${removed} لعبة غير متوافقة مع ${platform}`);
@@ -380,11 +394,12 @@ function selectPlatform(platform, { scroll = false, silent = false } = {}) {
   const tc = document.querySelector('meta[name="theme-color"]');
   if (tc) tc.content = THEME_COLORS[platform] || THEME_COLORS.none;
 
-  byId('selectedPlatformRule').textContent = `${platformGames().length} ${RULES[platform]}`;
+  byId('selectedPlatformRule').textContent = `${state.games.filter(g => compatible(g, platform)).length} ${RULES[platform]}`;
   updateHeaderSwitch();
   byId('platformFilterBox').classList.toggle('hidden', platform !== 'PS5');
   byId('catalogSection').classList.remove('hidden');
   updateSwitches();
+  updateViewSwitch();
 
   renderChips();
   resetAndRender();
@@ -528,7 +543,13 @@ function init(games, config) {
     resetAndRender(); searchInput.focus();
   };
   byId('sortSelect').onchange = e => { state.sort = e.target.value; store.set(KEY_SORT, state.sort); resetAndRender(); };
-  byId('platformFilter').onchange = e => { state.catalogFilter = e.target.value; state.genre = 'all'; renderChips(); resetAndRender(); };
+  byId('viewSwitch').addEventListener('click', e => {
+    const b = e.target.closest('[data-view]');
+    if (!b || b.dataset.view === state.catalogFilter) return;
+    state.catalogFilter = b.dataset.view;
+    state.genre = 'all';
+    updateViewSwitch(); renderChips(); resetAndRender();
+  });
   byId('genreChips').onclick = e => {
     const c = e.target.closest('.chip');
     if (!c) return;
@@ -538,9 +559,10 @@ function init(games, config) {
     resetAndRender();
   };
   byId('resetFilters').onclick = () => {
-    searchInput.value = ''; state.search = ''; state.genre = 'all'; state.catalogFilter = 'all';
-    byId('platformFilter').value = 'all'; byId('clearSearch').classList.add('hidden');
-    renderChips(); resetAndRender();
+    searchInput.value = ''; state.search = ''; state.genre = 'all';
+    state.catalogFilter = state.platform === 'PS5' ? 'PS5' : 'all';
+    byId('clearSearch').classList.add('hidden');
+    updateViewSwitch(); renderChips(); resetAndRender();
   };
 
   /* الشبكة (تفويض الأحداث) */

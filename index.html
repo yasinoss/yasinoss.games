@@ -78,14 +78,15 @@
           <input id="searchInput" type="search" placeholder="ابحث باسم اللعبة أو رقمها أو النوع" autocomplete="off">
           <button id="clearSearch" class="clear-search hidden" type="button" aria-label="مسح البحث">×</button>
         </label>
-        <label class="select-box hidden" for="platformFilter" id="platformFilterBox">
-          <span>عرض</span>
-          <select id="platformFilter">
-            <option value="all">PS4 + PS5</option>
-            <option value="PS4">PS4 فقط</option>
-            <option value="PS5">PS5 فقط</option>
-          </select>
-        </label>
+        <div class="view-box hidden" id="platformFilterBox">
+          <span class="view-label">عرض</span>
+          <div id="viewSwitch" class="device-switch mini view-switch" role="radiogroup" aria-label="عرض ألعاب PS4 أو PS5 أو الكل">
+            <span class="switch-thumb" aria-hidden="true"></span>
+            <button type="button" role="radio" aria-checked="false" data-view="PS4">PS4</button>
+            <button type="button" role="radio" aria-checked="false" data-view="PS5">PS5</button>
+            <button type="button" role="radio" aria-checked="false" data-view="all">الكل</button>
+          </div>
+        </div>
         <label class="select-box" for="sortSelect">
           <span>ترتيب</span>
           <select id="sortSelect">

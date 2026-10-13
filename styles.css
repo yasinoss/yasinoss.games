@@ -179,6 +179,8 @@ img { max-width: 100%; }
 .select-box select {
   border: 0; outline: 0; background: transparent; color: var(--text); padding: 15px 0; font-weight: 700; cursor: pointer;
 }
+.view-box { display: flex; align-items: center; gap: 10px; color: var(--muted); font-size: 14px; }
+.view-switch button { padding: 8px 15px !important; font-size: 13.5px !important; white-space: nowrap; }
 .select-box select option { background: #12141c; color: #f3f1ec; }
 
 .chips { display: flex; gap: 8px; overflow-x: auto; padding: 2px 0 12px; scrollbar-width: none; }
@@ -380,7 +382,10 @@ body.has-bar .toast { bottom: 92px; }
   .toolbar { display: grid; grid-template-columns: 1fr 1fr; }
   .search-box { grid-column: 1 / -1; }
   .select-box { justify-content: space-between; }
-  .select-box.hidden + .select-box { grid-column: 1 / -1; }
+  .view-label { display: none; }
+  .view-box { justify-content: center; }
+  .view-switch button { padding: 7px 10px !important; font-size: 12.5px !important; }
+  .view-box.hidden + .select-box { grid-column: 1 / -1; }
 
   .games-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 8px; }
   .game-card { border-radius: 14px; }
