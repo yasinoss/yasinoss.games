@@ -7,7 +7,8 @@
     "size": 36,
     "releaseYear": 2015,
     "genre": "Adventure, Action, Open World",
-    "notes": "مثال تجريبي"
+    "notes": "مثال تجريبي",
+    "trailer": "https://youtu.be/mr2T-WheM4M"
   },
   {
     "id": 40003,
@@ -17,7 +18,8 @@
     "size": 37,
     "releaseYear": 2014,
     "genre": "Adventure, Action, Open World",
-    "notes": "مثال تجريبي"
+    "notes": "مثال تجريبي",
+    "trailer": "https://youtu.be/taNGuF_k5Ao"
   },
   {
     "id": 50001,
@@ -92,7 +94,8 @@
     "releaseYear": 2017,
     "genre": "RPG, Open World, Action, Aventure",
     "image": "https://i.postimg.cc/ZKvtsfm8/001.jpg",
-    "notes": "اللعبة بها ترجمة عربية"
+    "notes": "اللعبة بها ترجمة عربية",
+    "trailer": "https://youtu.be/-1gZLmI9e5w"
   },
   {
     "id": 50008,
@@ -424,7 +427,7 @@
     "releaseYear": 2015,
     "genre": "Action, Aventure",
     "image": "https://i.postimg.cc/6qV4HB4L/40004.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/JeGAQXY2FzI"
   },
   {
     "id": 40005,
