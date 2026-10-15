@@ -3360,5 +3360,26 @@
     "genre": "Course, Sport",
     "image": "https://i.postimg.cc/dV2txt1x/50052.jpg",
     "trailer": "https://youtu.be/7P8B83s3cbU"
+  },
+  {
+    "id": 50053,
+    "name": "Elden Ring",
+    "platform": "PS5",
+    "size": 72,
+    "releaseYear": 2022,
+    "genre": "Open World, Action, RPG, Aventure, Action",
+    "image": "https://i.postimg.cc/sXghDvWC/50053.jpg",
+    "trailer": "https://youtu.be/qDNq9f_UpRw"
+  },
+  {
+    "id": 50054,
+    "name": "Star Wars Jedi: Survivor",
+    "platform": "PS5",
+    "size": 0,
+    "releaseYear": 2023,
+    "genre": "Adventure, Action",
+    "image": "https://i.postimg.cc/85z6PjvV/50054.jpg",
+    "notes": "",
+    "trailer": "https://youtu.be/_F6YBwIPzmk"
   }
 ]
