@@ -3400,5 +3400,406 @@
     "genre": "Adventure, Action",
     "image": "https://i.postimg.cc/636zCWkp/50055.jpg",
     "trailer": "https://youtu.be/1rR2QMUTAtc"
+  },
+  {
+    "id": 30002,
+    "name": "Need for Speed: Hot Pursuit",
+    "platform": "PS3",
+    "size": 7.12,
+    "releaseYear": 2010,
+    "genre": "Course, Sport",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00032001/jaquette-need-for-speed-hot-pursuit-playstation-3-ps3-cover-avant-g.jpg",
+    "trailer": "https://youtu.be/D6ouHWP0KrY"
+  },
+  {
+    "id": 30003,
+    "name": "Castlevania : Lords of Shadow 2",
+    "platform": "PS3",
+    "size": 4,
+    "releaseYear": 2014,
+    "genre": "Plate-Forme, Action",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00045180/jaquette-castlevania-lords-of-shadow-2-playstation-3-ps3-cover-avant-g-1383236127.jpg",
+    "trailer": "https://youtu.be/gKsEPoJMuKY"
+  },
+  {
+    "id": 30004,
+    "name": "Assassins Creed 4: Black Flag",
+    "platform": "PS3",
+    "size": 0,
+    "releaseYear": 2013,
+    "genre": "Open World, Aventure, Action",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00047808/jaquette-assassin-s-creed-iv-black-flag-playstation-3-ps3-cover-avant-g-1362057894.jpg",
+    "notes": "",
+    "trailer": "https://youtu.be/7YnopWO4X_Q"
+  },
+  {
+    "id": 30005,
+    "name": "Assassin's Creed - Heritage Collection",
+    "platform": "PS3",
+    "size": 49,
+    "releaseYear": 2013,
+    "genre": "Open World, Aventure, Action",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00054148/jaquette-assassin-s-creed-heritage-collection-playstation-3-ps3-cover-avant-g-1410198071.jpg",
+    "notes": ""
+  },
+  {
+    "id": 30006,
+    "name": "Far Cry 4",
+    "platform": "PS3",
+    "size": 0,
+    "releaseYear": 2014,
+    "genre": "Open World, FPS, Action",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00052736/jaquette-far-cry-4-playstation-3-ps3-cover-avant-g-1416213938.jpg",
+    "trailer": "https://youtu.be/6d60v1OErEY"
+  },
+  {
+    "id": 30007,
+    "name": "Battlefield : Hardline",
+    "platform": "PS3",
+    "size": 0,
+    "releaseYear": 2015,
+    "genre": "Action, FPS",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00052865/jaquette-battlefield-hardline-playstation-3-ps3-cover-avant-g-1402324502.jpg",
+    "trailer": "https://youtu.be/yWVPoUCxAC4"
+  },
+  {
+    "id": 30008,
+    "name": "FIFA 18",
+    "platform": "PS3",
+    "size": 0,
+    "releaseYear": 2017,
+    "genre": "Sport",
+    "image": "https://image.jeuxvideo.com/medias/149760/1497599872-1636-jaquette-avant.jpg",
+    "notes": "",
+    "trailer": "https://youtu.be/l1FJfr_spJQ"
+  },
+  {
+    "id": 30009,
+    "name": "Pro Evolution Soccer 2018",
+    "platform": "PS3",
+    "size": 0,
+    "releaseYear": 2017,
+    "genre": "Sport",
+    "image": "https://image.jeuxvideo.com/medias/150512/1505119815-9715-jaquette-avant.jpg",
+    "notes": "",
+    "trailer": "https://youtu.be/vh54LG8kSh4"
+  },
+  {
+    "id": 30010,
+    "name": "Blur",
+    "platform": "PS3",
+    "size": 6,
+    "releaseYear": 2010,
+    "genre": "Course, Sport, Action",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00031288/jaquette-blur-playstation-3-ps3-cover-avant-g.jpg",
+    "trailer": "https://youtu.be/53MyA285lJ8"
+  },
+  {
+    "id": 30011,
+    "name": "Assassins Creed: Rogue",
+    "platform": "PS3",
+    "size": 0,
+    "releaseYear": 2014,
+    "genre": "Open World, Aventure, Action",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00053151/jaquette-assassin-s-creed-rogue-playstation-3-ps3-cover-avant-g-1415871772.jpg",
+    "notes": "",
+    "trailer": "https://youtu.be/bjSy5kF6io0"
+  },
+  {
+    "id": 30012,
+    "name": "DRIVER San Francisco",
+    "platform": "PS3",
+    "size": 8.9,
+    "releaseYear": 2011,
+    "genre": "Course",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00031038/jaquette-driver-san-francisco-playstation-3-ps3-cover-avant-g-1307698028.jpg",
+    "notes": "",
+    "trailer": "https://youtu.be/h09BeowckHk"
+  },
+  {
+    "id": 30013,
+    "name": "Call of Duty: Black OPs",
+    "platform": "PS3",
+    "size": 18,
+    "releaseYear": 2010,
+    "genre": "Action, FPS",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00034821/jaquette-call-of-duty-black-ops-playstation-3-ps3-cover-avant-g.jpg",
+    "notes": "",
+    "trailer": "https://youtu.be/OPTOVQFRggI"
+  },
+  {
+    "id": 30014,
+    "name": "Call of Duty Black: Ops II",
+    "platform": "PS3",
+    "size": 20,
+    "releaseYear": 2012,
+    "genre": "Action, FPS",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00043687/jaquette-call-of-duty-black-ops-ii-playstation-3-ps3-cover-avant-g-1352711587.jpg",
+    "notes": "",
+    "trailer": "https://youtu.be/x3tedlWs1XY"
+  },
+  {
+    "id": 30015,
+    "name": "The Amazing SpiderMan 2",
+    "platform": "PS3",
+    "size": 0,
+    "releaseYear": 2014,
+    "genre": "Adventure, Action",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00050541/jaquette-the-amazing-spider-man-2-playstation-3-ps3-cover-avant-g-1398862990.jpg",
+    "trailer": "https://youtu.be/AuwuWokrats"
+  },
+  {
+    "id": 30016,
+    "name": "Grand Theft Auto V",
+    "platform": "PS3",
+    "size": 0,
+    "releaseYear": 2013,
+    "genre": "Open World, FPS, Action",
+    "image": "https://i.postimg.cc/zDxC9v7x/30016.jpg",
+    "notes": ""
+  },
+  {
+    "id": 30017,
+    "name": "Mafia2",
+    "platform": "PS3",
+    "size": 0,
+    "releaseYear": 2010,
+    "genre": "Action, FPS",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00019539/jaquette-mafia-ii-playstation-3-ps3-cover-avant-g.jpg",
+    "trailer": "https://youtu.be/wHoqwphzhzc"
+  },
+  {
+    "id": 30018,
+    "name": "Darksiders 2",
+    "platform": "PS3",
+    "size": 5.7,
+    "releaseYear": 2012,
+    "genre": "Adventure, Action",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00030338/jaquette-darksiders-ii-playstation-3-ps3-cover-avant-g-1358801295.jpg",
+    "notes": "",
+    "trailer": "https://youtu.be/kj9R2QqzLkk"
+  },
+  {
+    "id": 30019,
+    "name": "Resident Evil 6",
+    "platform": "PS3",
+    "size": 10,
+    "releaseYear": 2012,
+    "genre": "Survival-Horror, Action",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00038330/jaquette-resident-evil-6-playstation-3-ps3-cover-avant-g-1349421886.jpg",
+    "notes": "",
+    "trailer": "https://youtu.be/8SlXT8JtYSM"
+  },
+  {
+    "id": 30020,
+    "name": "Street Fighter x Tekken",
+    "platform": "PS3",
+    "size": 12.7,
+    "releaseYear": 2012,
+    "genre": "Combat",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00037911/jaquette-street-fighter-x-tekken-playstation-3-ps3-cover-avant-g-1314911414.jpg",
+    "trailer": "https://youtu.be/62C63afLp9s"
+  },
+  {
+    "id": 30021,
+    "name": "Tomb Raider",
+    "platform": "PS3",
+    "size": 7.9,
+    "releaseYear": 2013,
+    "genre": "Action, FPS",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00031563/jaquette-tomb-raider-playstation-3-ps3-cover-avant-g-1390465932.jpg",
+    "trailer": "https://youtu.be/u_Ysbb5FXIM"
+  },
+  {
+    "id": 30022,
+    "name": "Spec Ops: The Line",
+    "platform": "PS3",
+    "size": 5.9,
+    "releaseYear": 2012,
+    "genre": "Action, FPS",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00035471/jaquette-spec-ops-the-line-playstation-3-ps3-cover-avant-g-1340805705.jpg",
+    "notes": "",
+    "trailer": "https://youtu.be/kIoJnMT3yUI"
+  },
+  {
+    "id": 30023,
+    "name": "Pro Evolution Soccer 2016",
+    "platform": "PS3",
+    "size": 8.6,
+    "releaseYear": 2015,
+    "genre": "Sport",
+    "image": "https://image.jeuxvideo.com/medias/154694/1546937176-9103-jaquette-avant.jpg",
+    "notes": "",
+    "trailer": "https://youtu.be/WaDcV2STcnw"
+  },
+  {
+    "id": 30024,
+    "name": "Rayman 3 HD",
+    "platform": "PS3",
+    "size": 1.7,
+    "releaseYear": 2012,
+    "genre": "Plate-Forme, Aventure",
+    "image": "https://i.postimg.cc/KvVHhJfq/30024.jpg",
+    "notes": ""
+  },
+  {
+    "id": 30025,
+    "name": "Sleeping Dogs",
+    "platform": "PS3",
+    "size": 7,
+    "releaseYear": 2012,
+    "genre": "Action, FPS",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00035470/jaquette-sleeping-dogs-playstation-3-ps3-cover-avant-g-1344947760.jpg",
+    "notes": "",
+    "trailer": "https://youtu.be/lbGs8AJyT_Y"
+  },
+  {
+    "id": 30026,
+    "name": "Wheelman",
+    "platform": "PS3",
+    "size": 6,
+    "releaseYear": 2009,
+    "genre": "Action, Course",
+    "image": "https://image.jeuxvideo.com/images/p3/w/h/wheep30f.jpg",
+    "trailer": "https://youtu.be/TxKpYUJQ8cI"
+  },
+  {
+    "id": 30027,
+    "name": "Tekken Tag Tournament HD",
+    "platform": "PS3",
+    "size": 1.4,
+    "releaseYear": 2011,
+    "genre": "Combat",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00041114/jaquette-tekken-hybrid-playstation-3-ps3-cover-avant-g-1322126740.jpg",
+    "notes": ""
+  },
+  {
+    "id": 30028,
+    "name": "Max Payne 3",
+    "platform": "PS3",
+    "size": 19.3,
+    "releaseYear": 2012,
+    "genre": "Action, FPS",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00026404/jaquette-max-payne-3-playstation-3-ps3-cover-avant-g-1331147393.jpg",
+    "trailer": "https://youtu.be/11l77a0Jxcw"
+  },
+  {
+    "id": 30029,
+    "name": "Sniper Elite 3",
+    "platform": "PS3",
+    "size": 5.8,
+    "releaseYear": 2014,
+    "genre": "Action, FPS",
+    "image": "https://i.postimg.cc/sXk40Nsv/30029.jpg",
+    "notes": "",
+    "trailer": "https://youtu.be/nsHcLZGQ81s"
+  },
+  {
+    "id": 30030,
+    "name": "WWE 2K16",
+    "platform": "PS3",
+    "size": 17.7,
+    "releaseYear": 2015,
+    "genre": "Combat",
+    "image": "https://i.postimg.cc/d3cG9Zj5/30030.jpg"
+  },
+  {
+    "id": 30031,
+    "name": "WWE 2K17",
+    "platform": "PS3",
+    "size": 8.8,
+    "releaseYear": 2016,
+    "genre": "Combat",
+    "image": "https://image.jeuxvideo.com/medias/146705/1467049537-499-jaquette-avant.jpg",
+    "notes": ""
+  },
+  {
+    "id": 30032,
+    "name": "Naruto Shippuden : Ultimate Ninja Storm Revolution",
+    "platform": "PS3",
+    "size": 7.6,
+    "releaseYear": 2014,
+    "genre": "Combat",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00050986/jaquette-naruto-shippuden-ultimate-ninja-storm-revolution-playstation-3-ps3-cover-avant-g-1391456636.jpg"
+  },
+  {
+    "id": 30033,
+    "name": "Call of Duty : Black Ops III",
+    "platform": "PS3",
+    "size": 6.7,
+    "releaseYear": 2015,
+    "genre": "Action, FPS",
+    "image": "https://image.jeuxvideo.com/medias/149155/1491552988-2546-jaquette-avant.jpg",
+    "notes": ""
+  },
+  {
+    "id": 30034,
+    "name": "Call of Duty: Advanced Warfare",
+    "platform": "PS3",
+    "size": 21.3,
+    "releaseYear": 2014,
+    "genre": "Action, FPS",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00052405/jaquette-call-of-duty-advanced-warfare-playstation-3-ps3-cover-avant-g-1401826453.jpg",
+    "notes": ""
+  },
+  {
+    "id": 30035,
+    "name": "FIFA Street",
+    "platform": "PS3",
+    "size": 4.51,
+    "releaseYear": 2012,
+    "genre": "Sport",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00041909/jaquette-fifa-street-playstation-3-ps3-cover-avant-g-1331735307.jpg",
+    "notes": ""
+  },
+  {
+    "id": 30036,
+    "name": "Test Drive Unlimited 2",
+    "platform": "PS3",
+    "size": 10,
+    "releaseYear": 2011,
+    "genre": "Course",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00036265/jaquette-test-drive-unlimited-2-playstation-3-ps3-cover-avant-g.jpg",
+    "notes": ""
+  },
+  {
+    "id": 30037,
+    "name": "FIFA 19",
+    "platform": "PS3",
+    "size": 8.9,
+    "releaseYear": 2018,
+    "genre": "Sport",
+    "image": "https://i.postimg.cc/yYMCyVw2/30037.jpg",
+    "notes": ""
+  },
+  {
+    "id": 30038,
+    "name": "God of War: Ascension",
+    "platform": "PS3",
+    "size": 37,
+    "releaseYear": 2013,
+    "genre": "Action",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00040632/jaquette-god-of-war-ascension-playstation-3-ps3-cover-avant-g-1363008273.jpg",
+    "notes": ""
+  },
+  {
+    "id": 30039,
+    "name": "Red Dead Redemption",
+    "platform": "PS3",
+    "size": 9.3,
+    "releaseYear": 2010,
+    "genre": "Open World, Aventure, Action",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00029351/jaquette-red-dead-redemption-playstation-3-ps3-cover-avant-g.jpg",
+    "notes": ""
+  },
+  {
+    "id": 30040,
+    "name": "Rayman Legends",
+    "platform": "PS3",
+    "size": 6.1,
+    "releaseYear": 2013,
+    "genre": "Plate-Forme, Aventure",
+    "image": "https://image.jeuxvideo.com/images/jaquettes/00044719/jaquette-rayman-legends-playstation-3-ps3-cover-avant-g-1378220892.jpg",
+    "notes": ""
   }
 ]
