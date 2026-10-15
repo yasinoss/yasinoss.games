@@ -7,7 +7,8 @@
     "size": 36,
     "releaseYear": 2015,
     "genre": "Adventure, Action, Open World",
-    "notes": "مثال تجريبي"
+    "notes": "مثال تجريبي",
+    "trailer": "https://youtu.be/mr2T-WheM4M"
   },
   {
     "id": 40003,
@@ -17,7 +18,8 @@
     "size": 37,
     "releaseYear": 2014,
     "genre": "Adventure, Action, Open World",
-    "notes": "مثال تجريبي"
+    "notes": "مثال تجريبي",
+    "trailer": "https://youtu.be/taNGuF_k5Ao"
   },
   {
     "id": 50001,
@@ -26,7 +28,8 @@
     "image": "https://i.postimg.cc/3x2yJLF4/50001.jpg",
     "size": 46,
     "releaseYear": 2026,
-    "genre": "Action , Action-adventure"
+    "genre": "Action , Action-adventure",
+    "trailer": "https://youtu.be/gDvbGANDH4E"
   },
   {
     "id": 50002,
@@ -36,7 +39,8 @@
     "size": 31,
     "releaseYear": 2019,
     "genre": "Action-adventure, Third-person, Third-person",
-    "notes": "مثال تجريبي"
+    "notes": "مثال تجريبي",
+    "trailer": "https://youtu.be/PB7yZ-rjoMw"
   },
   {
     "id": 50003,
@@ -45,7 +49,8 @@
     "image": "https://i.postimg.cc/dVG7tWjC/50003.jpg",
     "size": 43,
     "releaseYear": 2022,
-    "genre": "Action-adventure, Third-person, Third-person"
+    "genre": "Action-adventure, Third-person, Third-person",
+    "trailer": "https://youtu.be/NAuzkT5A4xM"
   },
   {
     "id": 50004,
@@ -54,7 +59,8 @@
     "image": "https://i.postimg.cc/3x2yJLFp/50004.jpg",
     "size": 60,
     "releaseYear": 2026,
-    "genre": "Action, Open World, Adventure"
+    "genre": "Action, Open World, Adventure",
+    "trailer": "https://youtu.be/-iXraESkNGE"
   },
   {
     "id": 50007,
@@ -63,7 +69,8 @@
     "image": "https://i.postimg.cc/528HNPSq/50007.jpg",
     "size": 142,
     "releaseYear": 2020,
-    "genre": "Action, combat, Open World, Adventure"
+    "genre": "Action, combat, Open World, Adventure",
+    "trailer": "https://youtu.be/gnmuEkn30ZE"
   },
   {
     "id": 50005,
@@ -72,7 +79,8 @@
     "image": "https://i.postimg.cc/kgWVXjvK/50005.jpg",
     "size": 59,
     "releaseYear": 2023,
-    "genre": "combat, Adventure, Open World"
+    "genre": "combat, Adventure, Open World",
+    "trailer": "https://youtu.be/-JprUTktB3M"
   },
   {
     "id": 50006,
@@ -82,7 +90,8 @@
     "size": 142,
     "releaseYear": 2025,
     "genre": "RPG, Action, Open World",
-    "notes": "مع الاضافات"
+    "notes": "مع الاضافات",
+    "trailer": "https://youtu.be/8rrKyVzfZYo"
   },
   {
     "id": 40001,
@@ -92,7 +101,8 @@
     "releaseYear": 2017,
     "genre": "RPG, Open World, Action, Aventure",
     "image": "https://i.postimg.cc/ZKvtsfm8/001.jpg",
-    "notes": "اللعبة بها ترجمة عربية"
+    "notes": "اللعبة بها ترجمة عربية",
+    "trailer": "https://youtu.be/-1gZLmI9e5w"
   },
   {
     "id": 50008,
@@ -101,7 +111,8 @@
     "size": 35,
     "releaseYear": 2024,
     "genre": "Jeu de plateforme, Jeu de combat",
-    "image": "https://i.postimg.cc/3x2yJLFF/50008.jpg"
+    "image": "https://i.postimg.cc/3x2yJLFF/50008.jpg",
+    "trailer": "https://youtu.be/unYFdcEjV9k"
   },
   {
     "id": 50009,
@@ -111,7 +122,7 @@
     "releaseYear": 2025,
     "genre": "FPS, Action",
     "image": "https://i.postimg.cc/mg7c2dyS/50009.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/WZb3lPmxuSc"
   },
   {
     "id": 50010,
@@ -121,27 +132,27 @@
     "releaseYear": 2024,
     "genre": "Action RPG",
     "image": "https://i.postimg.cc/t4F1CrN5/50010.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/Wl05yGSDpxY"
   },
   {
     "id": 50011,
-    "name": "Crash Bandicoot 4 It's About Time",
+    "name": "Crash Bandicoot 4: It's About Time",
     "platform": "PS5",
     "size": 18,
     "releaseYear": 2020,
     "genre": "Plate-Forme, Aventure",
     "image": "https://i.postimg.cc/K8tKv9Df/50011.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/375dqL15O9E"
   },
   {
     "id": 50012,
-    "name": "Crimson Desert",
+    "name": "Crimson Desert: Enhanced",
     "platform": "PS5",
-    "size": 78,
+    "size": 94.1,
     "releaseYear": 2026,
-    "genre": "Open World, MMORPG",
-    "image": "https://i.postimg.cc/rw5dFhNg/50012.jpg",
-    "notes": ""
+    "genre": "RPG, Open World, Action, Aventure",
+    "image": "https://i.postimg.cc/vTsVCSyh/50012.jpg",
+    "trailer": "https://youtu.be/5BVxA1kj6SU"
   },
   {
     "id": 50013,
@@ -151,7 +162,7 @@
     "releaseYear": 2025,
     "genre": "Sport",
     "image": "https://i.postimg.cc/CKYRZjc8/50013.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/JlPptdEsTHA"
   },
   {
     "id": 50014,
@@ -161,7 +172,7 @@
     "releaseYear": 2026,
     "genre": "Sport",
     "image": "https://i.postimg.cc/PqhCLmSZ/50014.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/LoqWKZ1kjio"
   },
   {
     "id": 50015,
@@ -170,7 +181,8 @@
     "size": 60,
     "releaseYear": 2025,
     "genre": "Action, FPS",
-    "image": "https://i.postimg.cc/g0dxwvg8/50015.jpg"
+    "image": "https://i.postimg.cc/g0dxwvg8/50015.jpg",
+    "trailer": "https://youtu.be/vx8cUpL40Kc"
   },
   {
     "id": 50016,
@@ -180,7 +192,7 @@
     "releaseYear": 2020,
     "genre": "Open World, Aventure, Action",
     "image": "https://i.postimg.cc/6Qw87dMd/50016.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/7z7kqwuf0a8"
   },
   {
     "id": 50017,
@@ -190,7 +202,7 @@
     "releaseYear": 2025,
     "genre": "Open World, Aventure, Action",
     "image": "https://i.postimg.cc/vmM41W07/50017.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/sLcksHR30UA"
   },
   {
     "id": 50018,
@@ -200,17 +212,17 @@
     "releaseYear": 2022,
     "genre": "Mythologie, Action",
     "image": "https://i.postimg.cc/5t1XHwsq/50018.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/hfJ4Km46A-0"
   },
   {
     "id": 50019,
-    "name": "Need for Speed Unbound",
+    "name": "Need for Speed: Unbound",
     "platform": "PS5",
     "size": 31,
     "releaseYear": 2022,
     "genre": "Course, Sport",
     "image": "https://i.postimg.cc/FKmYfjTV/50019.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/dAnyYKHbETQ"
   },
   {
     "id": 50020,
@@ -219,7 +231,8 @@
     "size": 96,
     "releaseYear": 2013,
     "genre": "Open World, FPS, Action",
-    "image": "https://i.postimg.cc/9fVD4GLb/50020.jpg"
+    "image": "https://i.postimg.cc/9fVD4GLb/50020.jpg",
+    "trailer": "https://youtu.be/xQT-O1nMSBU"
   },
   {
     "id": 50021,
@@ -228,7 +241,8 @@
     "size": 23,
     "releaseYear": 2021,
     "genre": "Open World, FPS, Action",
-    "image": "https://i.postimg.cc/W3t18mL2/50021.jpg"
+    "image": "https://i.postimg.cc/W3t18mL2/50021.jpg",
+    "trailer": "https://youtu.be/H4rYVsJ4v9Y"
   },
   {
     "id": 50022,
@@ -237,7 +251,8 @@
     "size": 11,
     "releaseYear": 2021,
     "genre": "Open World, FPS, Action",
-    "image": "https://i.postimg.cc/Vk6LBQy1/50022.jpg"
+    "image": "https://i.postimg.cc/Vk6LBQy1/50022.jpg",
+    "trailer": "https://youtu.be/m8oQllwqw_I"
   },
   {
     "id": 50023,
@@ -247,17 +262,17 @@
     "releaseYear": 2024,
     "genre": "Puzzle-Game, Aventure, FPS, Action",
     "image": "https://i.postimg.cc/yNBDJFLf/50023.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/PxIzXnmNCKI"
   },
   {
     "id": 50024,
-    "name": "Mafia The Old Country",
+    "name": "Mafia: The Old Country",
     "platform": "PS5",
     "size": 38,
     "releaseYear": 2025,
     "genre": "Shooter, Action, Aventure",
     "image": "https://i.postimg.cc/TPGKyrtN/50024.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/MdnmrHadUdo"
   },
   {
     "id": 50025,
@@ -267,7 +282,8 @@
     "releaseYear": 2023,
     "genre": "Open World, Aventure, Action",
     "image": "https://i.postimg.cc/N0YKy1dz/50025.jpg",
-    "notes": "مدبلجة عربي"
+    "notes": "مدبلجة عربي",
+    "trailer": "https://youtu.be/9fVYKsEmuRo"
   },
   {
     "id": 50026,
@@ -277,7 +293,7 @@
     "releaseYear": 2020,
     "genre": "Super-Héros, Action",
     "image": "https://i.postimg.cc/pdxm9DsS/50026.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/3wHL2VIaFcs"
   },
   {
     "id": 50027,
@@ -287,7 +303,7 @@
     "releaseYear": 2026,
     "genre": "Aventure, Action",
     "image": "https://i.postimg.cc/7LD5CgKc/50027.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/s3pDMUWlA6I"
   },
   {
     "id": 50028,
@@ -297,7 +313,7 @@
     "releaseYear": 2023,
     "genre": "Combat",
     "image": "https://i.postimg.cc/vmM41W0k/50028.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/LrNumBZGZ0o"
   },
   {
     "id": 50029,
@@ -307,7 +323,7 @@
     "releaseYear": 2025,
     "genre": "Sport",
     "image": "https://i.postimg.cc/8CD7FhZq/50029.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/zY1dEu7nGKc"
   },
   {
     "id": 50030,
@@ -316,7 +332,8 @@
     "size": 39,
     "releaseYear": 2026,
     "genre": "RPG, Aventure, Action",
-    "image": "https://i.postimg.cc/N0YKy1d3/50030.jpg"
+    "image": "https://i.postimg.cc/N0YKy1d3/50030.jpg",
+    "trailer": "https://youtu.be/pfMJY5qOVPg"
   },
   {
     "id": 50031,
@@ -326,17 +343,17 @@
     "releaseYear": 2026,
     "genre": "Action",
     "image": "https://i.postimg.cc/W4jdDM9R/50031.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/oncaa_fMsyw"
   },
   {
     "id": 50032,
-    "name": "Ratchet & Clank Rift Apart",
+    "name": "Ratchet & Clank: Rift Apart",
     "platform": "PS5",
     "size": 40,
     "releaseYear": 2021,
     "genre": "Action, Plate-Forme, Aventure",
     "image": "https://i.postimg.cc/3wBd2dqb/50032.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/55PRv_e00wc"
   },
   {
     "id": 50033,
@@ -346,17 +363,17 @@
     "releaseYear": 2026,
     "genre": "Survival-Horror, Action",
     "image": "https://i.postimg.cc/1zP8gpWS/50033.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/u2jrHzua0jA"
   },
   {
     "id": 50034,
-    "name": "Sackboy A Big Adventure",
+    "name": "Sackboy: A Big Adventure",
     "platform": "PS5",
     "size": 29,
     "releaseYear": 2020,
     "genre": "Plate-Forme, Aventure",
     "image": "https://i.postimg.cc/YS3hQhPs/50034.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/ZOk3fj5ujNM"
   },
   {
     "id": 50035,
@@ -366,7 +383,7 @@
     "releaseYear": 2022,
     "genre": "Survival-Horror, Action",
     "image": "https://i.postimg.cc/SKrJcJPP/50035.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/R2Ebc_OFeug"
   },
   {
     "id": 50036,
@@ -375,7 +392,8 @@
     "size": 98,
     "releaseYear": 2024,
     "genre": "Survival-Horror, Action",
-    "image": "https://i.postimg.cc/W4nh0hyC/50036.jpg"
+    "image": "https://i.postimg.cc/W4nh0hyC/50036.jpg",
+    "trailer": "https://youtu.be/-llaUBqovHw"
   },
   {
     "id": 50037,
@@ -385,7 +403,7 @@
     "releaseYear": 2023,
     "genre": "Action, Combat, Sport",
     "image": "https://i.postimg.cc/YS3hQhPT/50037.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/i5bZ1AxHcns"
   },
   {
     "id": 50038,
@@ -395,7 +413,7 @@
     "releaseYear": 2026,
     "genre": "Combat, Sport",
     "image": "https://i.postimg.cc/25wVnVts/50038.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/h74pqj9FdbE"
   },
   {
     "id": 50039,
@@ -405,7 +423,7 @@
     "releaseYear": 2024,
     "genre": "Plate-Forme, Action",
     "image": "https://i.postimg.cc/tTvwfGJS/50039.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/T8rBPiw5eyo"
   },
   {
     "id": 50040,
@@ -415,7 +433,7 @@
     "releaseYear": 2021,
     "genre": "Survival-Horror",
     "image": "https://i.postimg.cc/63bgSxqH/50040.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/5q4MgRrjMqQ"
   },
   {
     "id": 40004,
@@ -425,7 +443,7 @@
     "releaseYear": 2015,
     "genre": "Action, Aventure",
     "image": "https://i.postimg.cc/6qV4HB4L/40004.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/JeGAQXY2FzI"
   },
   {
     "id": 40005,
@@ -2569,7 +2587,8 @@
     "size": 61,
     "releaseYear": 2026,
     "genre": "Aventure, Infiltration, Action",
-    "image": "https://i.postimg.cc/Kjrg2h5k/50041.jpg"
+    "image": "https://i.postimg.cc/Kjrg2h5k/50041.jpg",
+    "trailer": "https://youtu.be/8sHJhrFF4V0"
   },
   {
     "id": 50042,
@@ -2578,7 +2597,8 @@
     "size": 52,
     "releaseYear": 2026,
     "genre": "Survival-Horror",
-    "image": "https://i.postimg.cc/FzDsprZf/50042.jpg"
+    "image": "https://i.postimg.cc/FzDsprZf/50042.jpg",
+    "trailer": "https://youtu.be/RALnTmNg_ss"
   },
   {
     "id": 50043,
@@ -2588,7 +2608,7 @@
     "releaseYear": 2020,
     "genre": "Action, RPG",
     "image": "https://i.postimg.cc/R059cJm5/50043.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/qjZIw0VUezU"
   },
   {
     "id": 50044,
@@ -2598,7 +2618,8 @@
     "releaseYear": 2022,
     "genre": "Course, Sport",
     "image": "https://i.postimg.cc/wjJYTxmD/50044.jpg",
-    "notes": "كاملة مع امكانية التسجيل"
+    "notes": "كاملة مع امكانية التسجيل",
+    "trailer": "https://youtu.be/AmYxC6Pj7fg"
   },
   {
     "id": 50045,
@@ -2608,7 +2629,7 @@
     "releaseYear": 2026,
     "genre": "Sport",
     "image": "https://i.postimg.cc/Tw3smTpr/50045.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/x3VbMlmerXg"
   },
   {
     "id": 50046,
@@ -2618,7 +2639,7 @@
     "releaseYear": 2021,
     "genre": "Simulation, Course, Sport",
     "image": "https://i.postimg.cc/h4zB30tM/50046.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/RWzzZwNSLzM"
   },
   {
     "id": 50047,
@@ -2627,7 +2648,8 @@
     "size": 50,
     "releaseYear": 2022,
     "genre": "Survival-Horror, FPS, Action",
-    "image": "https://i.postimg.cc/GpCK5m7h/50047.jpg"
+    "image": "https://i.postimg.cc/GpCK5m7h/50047.jpg",
+    "trailer": "https://youtu.be/cOgpChpiNEk"
   },
   {
     "id": 50048,
@@ -2637,16 +2659,17 @@
     "releaseYear": 2025,
     "genre": "Survival-Horror, FPS, Action",
     "image": "https://i.postimg.cc/Jnby0jjP/50048.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/iu-F12uTPwE"
   },
   {
     "id": 50049,
-    "name": "Death Stranding Directors Cut",
+    "name": "Death Stranding: Directors Cut",
     "platform": "PS5",
     "size": 64,
     "releaseYear": 2021,
     "genre": "Adventure",
-    "image": "https://i.postimg.cc/3JnY15Vy/50049.jpg"
+    "image": "https://i.postimg.cc/3JnY15Vy/50049.jpg",
+    "trailer": "https://youtu.be/6tgsz7WbidU"
   },
   {
     "id": 50050,
@@ -2656,7 +2679,7 @@
     "releaseYear": 2022,
     "genre": "RPG, Action",
     "image": "https://i.postimg.cc/W1dKRQWW/50050.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/z5RKh5nPK9k"
   },
   {
     "id": 40221,
@@ -3317,5 +3340,25 @@
     "genre": "Survival-Horror, Action, Puzzle",
     "image": "https://i.postimg.cc/pdfv6qZb/40286.jpg",
     "notes": ""
+  },
+  {
+    "id": 50051,
+    "name": "Beast of Reincarnation",
+    "platform": "PS5",
+    "size": 22,
+    "releaseYear": 2026,
+    "genre": "RPG, Action",
+    "image": "https://i.postimg.cc/LssK3HZz/50051.jpg",
+    "trailer": "https://youtu.be/YBAuVSnS0ls"
+  },
+  {
+    "id": 50052,
+    "name": "MXGP 26",
+    "platform": "PS5",
+    "size": 22,
+    "releaseYear": 2026,
+    "genre": "Course, Sport",
+    "image": "https://i.postimg.cc/dV2txt1x/50052.jpg",
+    "trailer": "https://youtu.be/7P8B83s3cbU"
   }
 ]
