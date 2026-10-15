@@ -532,7 +532,8 @@
     "size": 42,
     "releaseYear": 2013,
     "genre": "Open World, FPS, Action",
-    "image": "https://i.postimg.cc/Y2QF2zDr/40013.jpg"
+    "image": "https://i.postimg.cc/Y2QF2zDr/40013.jpg",
+    "trailer": "https://youtu.be/xQT-O1nMSBU"
   },
   {
     "id": 40014,
@@ -811,7 +812,8 @@
     "releaseYear": 2014,
     "genre": "Action, Survival-Horror",
     "image": "https://i.postimg.cc/bNT2kNhj/40041.jpg",
-    "notes": "توجد ترجمة عربية"
+    "notes": "توجد ترجمة عربية",
+    "trailer": "https://youtu.be/R2Ebc_OFeug"
   },
   {
     "id": 40042,
@@ -1258,7 +1260,8 @@
     "size": 92,
     "releaseYear": 2020,
     "genre": "Action, Infiltration, Survival-Horror",
-    "image": "https://i.postimg.cc/ncVQ5W81/40086.jpg"
+    "image": "https://i.postimg.cc/ncVQ5W81/40086.jpg",
+    "trailer": "https://youtu.be/vhII1qlcZ4E"
   },
   {
     "id": 40087,
@@ -1267,7 +1270,8 @@
     "size": 49,
     "releaseYear": 2020,
     "genre": "Open World, Aventure, Action",
-    "image": "https://i.postimg.cc/KvcgVWXp/40087.jpg"
+    "image": "https://i.postimg.cc/KvcgVWXp/40087.jpg",
+    "trailer": "https://youtu.be/7z7kqwuf0a8"
   },
   {
     "id": 40088,
@@ -1287,7 +1291,8 @@
     "releaseYear": 2020,
     "genre": "Aventure, Action, Open World",
     "image": "https://i.postimg.cc/DyCbKcFP/40089.jpg",
-    "notes": "with DLC"
+    "notes": "with DLC",
+    "trailer": "https://youtu.be/gnmuEkn30ZE"
   },
   {
     "id": 40090,
@@ -1317,7 +1322,7 @@
     "releaseYear": 2020,
     "genre": "RPG",
     "image": "https://i.postimg.cc/TYkWXcG4/40092.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/z5RKh5nPK9k"
   },
   {
     "id": 40093,
@@ -1387,7 +1392,7 @@
     "releaseYear": 2021,
     "genre": "Survival-Horror",
     "image": "https://i.postimg.cc/HsS7CtdH/40099.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/5q4MgRrjMqQ"
   },
   {
     "id": 40100,
@@ -1504,7 +1509,8 @@
     "size": 22,
     "releaseYear": 2015,
     "genre": "Open World, FPS, Action",
-    "image": "https://i.postimg.cc/2SVLjBSC/40112.jpg"
+    "image": "https://i.postimg.cc/2SVLjBSC/40112.jpg",
+    "trailer": "https://youtu.be/H4rYVsJ4v9Y"
   },
   {
     "id": 40113,
@@ -1514,7 +1520,7 @@
     "releaseYear": 2015,
     "genre": "Open World, FPS, Action",
     "image": "https://i.postimg.cc/Z5CvYy5b/40113.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/m8oQllwqw_I"
   },
   {
     "id": 40114,
@@ -1723,7 +1729,8 @@
     "releaseYear": 2022,
     "genre": "RPG",
     "image": "https://i.postimg.cc/zvskXTHM/40134.jpg",
-    "notes": "With Dlc Shadow of The Erdtree"
+    "notes": "With Dlc Shadow of The Erdtree",
+    "trailer": "https://youtu.be/qDNq9f_UpRw"
   },
   {
     "id": 40135,
@@ -1793,7 +1800,8 @@
     "releaseYear": 2022,
     "genre": "Action",
     "image": "https://i.postimg.cc/kG0yXWtJ/40141.jpg",
-    "notes": "with Dlc Valhalla"
+    "notes": "with Dlc Valhalla",
+    "trailer": "https://youtu.be/hfJ4Km46A-0"
   },
   {
     "id": 40142,
@@ -2230,7 +2238,8 @@
     "releaseYear": 2023,
     "genre": "Open World, Action, RPG, Aventure, Action",
     "image": "https://i.postimg.cc/qMtJ8L2y/40185.jpg",
-    "notes": "مدبلجة عربي"
+    "notes": "مدبلجة عربي",
+    "trailer": "https://youtu.be/-JprUTktB3M"
   },
   {
     "id": 40186,
@@ -2398,7 +2407,7 @@
     "releaseYear": 2024,
     "genre": "Plate-Forme, Action",
     "image": "https://i.postimg.cc/rFv8grJT/40202.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/T8rBPiw5eyo"
   },
   {
     "id": 40203,
@@ -2739,7 +2748,7 @@
     "releaseYear": 2019,
     "genre": "Adventure, Action",
     "image": "https://i.postimg.cc/HsvZ2d0S/40226.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/PB7yZ-rjoMw"
   },
   {
     "id": 40227,
@@ -2899,7 +2908,7 @@
     "releaseYear": 2026,
     "genre": "Sport",
     "image": "https://i.postimg.cc/02XWfPd5/40242.jpg",
-    "notes": ""
+    "trailer": "https://youtu.be/zY1dEu7nGKc"
   },
   {
     "id": 40243,
@@ -2979,7 +2988,8 @@
     "releaseYear": 2022,
     "genre": "Course, Sport",
     "image": "https://i.postimg.cc/Mpcs3Ndz/40250.jpg",
-    "notes": "كاملة تقبل التسجيل"
+    "notes": "كاملة تقبل التسجيل",
+    "trailer": "https://youtu.be/AmYxC6Pj7fg"
   },
   {
     "id": 40251,
@@ -3345,7 +3355,7 @@
     "id": 50051,
     "name": "Beast of Reincarnation",
     "platform": "PS5",
-    "size": 22,
+    "size": 28,
     "releaseYear": 2026,
     "genre": "RPG, Action",
     "image": "https://i.postimg.cc/LssK3HZz/50051.jpg",
@@ -3375,11 +3385,20 @@
     "id": 50054,
     "name": "Star Wars Jedi: Survivor",
     "platform": "PS5",
-    "size": 0,
+    "size": 140,
     "releaseYear": 2023,
     "genre": "Adventure, Action",
     "image": "https://i.postimg.cc/85z6PjvV/50054.jpg",
-    "notes": "",
     "trailer": "https://youtu.be/_F6YBwIPzmk"
+  },
+  {
+    "id": 50055,
+    "name": "CONTROL: Resonant",
+    "platform": "PS5",
+    "size": 81,
+    "releaseYear": 2026,
+    "genre": "Adventure, Action",
+    "image": "https://i.postimg.cc/636zCWkp/50055.jpg",
+    "trailer": "https://youtu.be/1rR2QMUTAtc"
   }
 ]
